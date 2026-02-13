@@ -1,14 +1,21 @@
 import { z } from "zod";
 
+export type EntityTypeArray = ("port" | "airport" | "warehouse" | "factory")[];
+export type VehicleTypeArray = ("ship" | "flight" | "truck")[];
+
 export const entityTypesSchema = z
   .string()
   .optional()
-  .transform((s) => (s ? (s.split(",") as ("port" | "airport" | "warehouse" | "factory")[]) : ["port", "airport", "warehouse", "factory"]));
+  .transform((s): EntityTypeArray =>
+    s ? (s.split(",").map((t) => t.trim()) as EntityTypeArray) : (["port", "airport", "warehouse", "factory"] as const)
+  );
 
 export const vehicleTypesSchema = z
   .string()
   .optional()
-  .transform((s) => (s ? (s.split(",") as ("ship" | "flight" | "truck")[]) : ["ship", "flight", "truck"]));
+  .transform((s): VehicleTypeArray =>
+    s ? (s.split(",").map((t) => t.trim()) as VehicleTypeArray) : (["ship", "flight", "truck"] as const)
+  );
 
 export const shipmentsQuerySchema = z.object({
   status: z.string().optional(),
