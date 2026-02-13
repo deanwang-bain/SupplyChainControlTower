@@ -347,10 +347,10 @@ export function AnalyticsTab2() {
         <div className="rounded border border-border bg-card p-2">
           <div className="text-xs font-medium">Edge: {selectedEdge.label ?? selectedEdge.id}</div>
           <div className="mt-1 text-xs">
-            cost_usd_per_ton: {(selectedEdge.metrics as Record<string, number>)?.cost_usd_per_ton ?? "—"} · p10/p50/p90 (days):{" "}
-            {(selectedEdge.metrics as Record<string, { time_distribution?: { p10?: number; p50?: number; p90?: number } }>)?.time_distribution?.p10 ?? "—"} /{" "}
-            {(selectedEdge.metrics as Record<string, { time_distribution?: { p10?: number; p50?: number; p90?: number } }>)?.time_distribution?.p50 ?? "—"} /{" "}
-            {(selectedEdge.metrics as Record<string, { time_distribution?: { p10?: number; p50?: number; p90?: number } }>)?.time_distribution?.p90 ?? "—"}
+            cost_usd_per_ton: {(selectedEdge.metrics as { cost_usd_per_ton?: number })?.cost_usd_per_ton ?? "—"} · p10/p50/p90 (days):{" "}
+            {(selectedEdge.metrics as { time_distribution?: { p10?: number; p50?: number; p90?: number } })?.time_distribution?.p10 ?? "—"} /{" "}
+            {(selectedEdge.metrics as { time_distribution?: { p10?: number; p50?: number; p90?: number } })?.time_distribution?.p50 ?? "—"} /{" "}
+            {(selectedEdge.metrics as { time_distribution?: { p10?: number; p50?: number; p90?: number } })?.time_distribution?.p90 ?? "—"}
           </div>
           {selectedEdge.metrics?.forecast_next_12w && selectedEdge.metrics.forecast_next_12w.length > 0 && (
             <div className="mt-2 h-24 w-full">
