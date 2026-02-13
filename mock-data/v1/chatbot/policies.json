@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "scope": {
+    "in_scope": [
+      "shipment status, location, ETA forecasts and confidence intervals",
+      "port/airport/factory/warehouse operational status, congestion, and forecasts",
+      "supply chain network segments, volumes, delays, and bottlenecks",
+      "news and weather impacts on supply chain",
+      "what-if scenarios and mitigation suggestions (mock in v1)"
+    ],
+    "out_of_scope_examples": [
+      "medical advice",
+      "legal advice beyond summarizing provided policies",
+      "political persuasion",
+      "personal data lookups",
+      "anything not related to the supply chain context of this dashboard"
+    ]
+  },
+  "guardrails": {
+    "improper_language_policy": "Reject profanity or harassment. Ask the user to rephrase.",
+    "out_of_scope_policy": "Explain the assistant is scoped to supply-chain operations and suggest allowed topics.",
+    "data_grounding_policy": "Answer only using provided structured context (entities, shipments, segments, analytics, news, weather, and RAG docs). If missing, say what data is needed."
+  },
+  "citation_style": {
+    "instruction": "Include citations like [S1], [S2] referencing the Sources list returned with the answer. Prefer citing structured data and relevant news items.",
+    "min_sources": 1
+  },
+  "profanity_list": [
+    "fuck",
+    "shit",
+    "bitch",
+    "asshole",
+    "bastard",
+    "cunt",
+    "nigger",
+    "faggot"
+  ],
+  "action_mock": {
+    "enabled": true,
+    "examples": [
+      "I can create a reroute request draft (mock) and show the proposed changes.",
+      "I can open an incident ticket draft (mock) for this shipment."
+    ]
+  }
+}

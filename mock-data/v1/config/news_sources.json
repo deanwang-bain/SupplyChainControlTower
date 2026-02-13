@@ -1,0 +1,72 @@
+[
+  {
+    "id": "SRC_LOGISTICS_WIRE",
+    "name": "Logistics Wire",
+    "rss_url": "https://example.com/rss/logistics.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_PORT_WATCH",
+    "name": "Port Watch",
+    "rss_url": "https://example.com/rss/ports.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_AIR_CARGO_DAILY",
+    "name": "Air Cargo Daily",
+    "rss_url": "https://example.com/rss/air.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_TRADE_MONITOR",
+    "name": "Trade Monitor",
+    "rss_url": "https://example.com/rss/trade.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_GEO_RISK_BULLETIN",
+    "name": "GeoRisk Bulletin",
+    "rss_url": "https://example.com/rss/georisk.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_METEO_ALERTS",
+    "name": "Meteo Alerts",
+    "rss_url": "https://example.com/rss/weather.xml",
+    "language": "en",
+    "region": "global"
+  },
+  {
+    "id": "SRC_LOGISTICA_HOY",
+    "name": "Logística Hoy",
+    "rss_url": "https://example.com/rss/logistica-hoy.xml",
+    "language": "es",
+    "region": "latam"
+  },
+  {
+    "id": "SRC_CARGA_AEREA",
+    "name": "Carga Aérea",
+    "rss_url": "https://example.com/rss/carga-aerea.xml",
+    "language": "es",
+    "region": "global"
+  },
+  {
+    "id": "SRC_HAIYUN_RIBAO",
+    "name": "海运日报",
+    "rss_url": "https://example.com/rss/haiyun.xml",
+    "language": "zh",
+    "region": "cn"
+  },
+  {
+    "id": "SRC_GUOJI_MAoyi",
+    "name": "国际贸易观察",
+    "rss_url": "https://example.com/rss/trade-cn.xml",
+    "language": "zh",
+    "region": "cn"
+  }
+]

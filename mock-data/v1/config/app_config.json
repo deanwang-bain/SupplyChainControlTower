@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "app_name": "Supply Chain Command Center (Mock v1.1)",
+  "tenant": "single",
+  "auth_enabled": false,
+  "roles": [
+    "dispatcher",
+    "planner",
+    "executive"
+  ],
+  "default_role": "dispatcher",
+  "refresh": {
+    "vehicles_seconds": 60,
+    "news_seconds": 180,
+    "analytics_seconds": 300
+  },
+  "map": {
+    "cluster_markers_default": true,
+    "default_view": {
+      "lat": 20.0,
+      "lon": 0.0,
+      "zoom": 2
+    },
+    "tile_provider": "OpenStreetMap"
+  },
+  "features": {
+    "multilingual_news": true,
+    "scenario_authoring": true,
+    "chatbot_actions_mock": true,
+    "chatbot_source_citations": true
+  }
+}

@@ -1,0 +1,782 @@
+[
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_CAMERA_MODULE_12",
+    "qty": 28.15,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 27.35,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_HEAT_SINK_35",
+    "qty": 22.76,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_ALUMINUM_SHEET_04",
+    "qty": 10.42,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_GPS_MODULE_20",
+    "qty": 24.93,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 8.24,
+    "unit": "panel"
+  },
+  {
+    "product_id": "PRD_SMARTPHONE_01",
+    "material_id": "MAT_PAINT_23",
+    "qty": 22.72,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LAPTOP_02",
+    "material_id": "MAT_PCB_02",
+    "qty": 24.32,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_LAPTOP_02",
+    "material_id": "MAT_SCREW_SET_22",
+    "qty": 16.82,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LAPTOP_02",
+    "material_id": "MAT_STEEL_FASTENER_40",
+    "qty": 28.6,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LAPTOP_02",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 28.01,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_LAPTOP_02",
+    "material_id": "MAT_ALUMINUM_SHEET_04",
+    "qty": 8.98,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_BATTERY_BMS_30",
+    "qty": 14.29,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 29.78,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_BEARING_37",
+    "qty": 7.53,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_ACTUATOR_38",
+    "qty": 27.28,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_BLUETOOTH_MODULE_34",
+    "qty": 8.78,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_COOLING_FAN_17",
+    "qty": 20.64,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_COPPER_WIRE_11",
+    "qty": 8.59,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_TABLET_03",
+    "material_id": "MAT_LED_BACKLIGHT_25",
+    "qty": 29.96,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 19.95,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_SCREW_SET_22",
+    "qty": 23.58,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_BEARING_37",
+    "qty": 24.4,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_TRANSFORMER_26",
+    "qty": 18.44,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 4.17,
+    "unit": "panel"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_SENSOR_ARRAY_18",
+    "qty": 17.27,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_INSULATION_FOAM_24",
+    "qty": 9.97,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_E_BIKE_04",
+    "material_id": "MAT_HEAT_SINK_35",
+    "qty": 8.3,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_ELECTRIC_SCOOTER_05",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 28.99,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_ELECTRIC_SCOOTER_05",
+    "material_id": "MAT_BATTERY_BMS_30",
+    "qty": 14.67,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_ELECTRIC_SCOOTER_05",
+    "material_id": "MAT_PCB_02",
+    "qty": 25.41,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_ELECTRIC_SCOOTER_05",
+    "material_id": "MAT_LITHIUM_CELLS_01",
+    "qty": 6.93,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_ELECTRIC_SCOOTER_05",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 2.23,
+    "unit": "panel"
+  },
+  {
+    "product_id": "PRD_REFRIGERATOR_06",
+    "material_id": "MAT_SENSOR_ARRAY_18",
+    "qty": 28.62,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_REFRIGERATOR_06",
+    "material_id": "MAT_STEEL_FASTENER_40",
+    "qty": 13.49,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_REFRIGERATOR_06",
+    "material_id": "MAT_ADHESIVE_36",
+    "qty": 8.11,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_REFRIGERATOR_06",
+    "material_id": "MAT_CHARGER_CABLE_21",
+    "qty": 23.71,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_STERILE_TUBING_32",
+    "qty": 7.36,
+    "unit": "m"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_ABS_PLASTIC_09",
+    "qty": 19.81,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_GLASS_COVER_15",
+    "qty": 5.94,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_CAMERA_MODULE_12",
+    "qty": 15.45,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 13.49,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_WASHING_MACHINE_07",
+    "material_id": "MAT_ALUMINUM_SHEET_04",
+    "qty": 9.86,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_GLASS_COVER_15",
+    "qty": 10.82,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_ALUMINUM_SHEET_04",
+    "qty": 2.79,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_COOLING_FAN_17",
+    "qty": 13.59,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_ACTUATOR_38",
+    "qty": 15.58,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_PCB_02",
+    "qty": 7.49,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_PAINT_23",
+    "qty": 10.11,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 11.46,
+    "unit": "panel"
+  },
+  {
+    "product_id": "PRD_MEDICAL_MONITOR_08",
+    "material_id": "MAT_RUBBER_GASKET_16",
+    "qty": 24.77,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_STEEL_COIL_05",
+    "qty": 10.38,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 12.54,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 19.73,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 14.39,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_PCB_02",
+    "qty": 29.22,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_CHARGER_CABLE_21",
+    "qty": 18.85,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_INDUSTRIAL_SENSOR_09",
+    "material_id": "MAT_INSULATION_FOAM_24",
+    "qty": 5.23,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_ROUTER_10",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 3.63,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_ROUTER_10",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 6.74,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_ROUTER_10",
+    "material_id": "MAT_ACTUATOR_38",
+    "qty": 9.74,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_ROUTER_10",
+    "material_id": "MAT_PCB_02",
+    "qty": 21.62,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_MICROCONTROLLER_33",
+    "qty": 28.68,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_ACTUATOR_38",
+    "qty": 28.78,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_PAINT_23",
+    "qty": 29.77,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_POWER_IC_14",
+    "qty": 17.18,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_LED_BACKLIGHT_25",
+    "qty": 29.94,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 19.09,
+    "unit": "panel"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 22.15,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_ADHESIVE_36",
+    "qty": 16.4,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_BATTERY_PACK_11",
+    "material_id": "MAT_COMPRESSOR_06",
+    "qty": 4.08,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_ALUMINUM_SHEET_04",
+    "qty": 6.25,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_SEALING_TAPE_39",
+    "qty": 17.47,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_ANTIBIOTIC_REAGENT_31",
+    "qty": 27.38,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_BLUETOOTH_MODULE_34",
+    "qty": 10.2,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_BEARING_37",
+    "qty": 24.07,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 29.34,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_CHARGER_CABLE_21",
+    "qty": 7.31,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_AIR_PURIFIER_12",
+    "material_id": "MAT_SENSOR_ARRAY_18",
+    "qty": 9.79,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_POWER_TOOL_13",
+    "material_id": "MAT_RUBBER_GASKET_16",
+    "qty": 2.85,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_POWER_TOOL_13",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 17.03,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_POWER_TOOL_13",
+    "material_id": "MAT_INVERTER_PCB_27",
+    "qty": 2.76,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_POWER_TOOL_13",
+    "material_id": "MAT_INSULATION_FOAM_24",
+    "qty": 11.19,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_SEALING_TAPE_39",
+    "qty": 23.41,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_GLASS_COVER_15",
+    "qty": 12.52,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 17.75,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_INVERTER_PCB_27",
+    "qty": 4.58,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_STEEL_FASTENER_40",
+    "qty": 8.18,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_ABS_PLASTIC_09",
+    "qty": 8.96,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_LED_TV_14",
+    "material_id": "MAT_RUBBER_GASKET_16",
+    "qty": 9.76,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_EV_CHARGER_15",
+    "material_id": "MAT_INVERTER_PCB_27",
+    "qty": 15.08,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_EV_CHARGER_15",
+    "material_id": "MAT_MICROCONTROLLER_33",
+    "qty": 26.5,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_EV_CHARGER_15",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 6.34,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_EV_CHARGER_15",
+    "material_id": "MAT_BEARING_37",
+    "qty": 5.81,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_LITHIUM_CELLS_01",
+    "qty": 4.23,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_COPPER_WIRE_11",
+    "qty": 1.51,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_TIRE_08",
+    "qty": 13.23,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_INVERTER_PCB_27",
+    "qty": 20.86,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_COOLING_FAN_17",
+    "qty": 29.7,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_ANTIBIOTIC_REAGENT_31",
+    "qty": 4.41,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_COFFEE_MACHINE_16",
+    "material_id": "MAT_ELECTRIC_MOTOR_07",
+    "qty": 26.07,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 4.01,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_PAINT_23",
+    "qty": 26.97,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_ABS_PLASTIC_09",
+    "qty": 27.0,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_TRANSFORMER_26",
+    "qty": 17.95,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_ADHESIVE_36",
+    "qty": 18.69,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_RUBBER_GASKET_16",
+    "qty": 29.83,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_SMART_WATCH_17",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 1.83,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_PAINT_23",
+    "qty": 21.85,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 17.89,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_INVERTER_PCB_27",
+    "qty": 24.69,
+    "unit": "board"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_SEALING_TAPE_39",
+    "qty": 15.53,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_SOLAR_CELLS_28",
+    "qty": 4.99,
+    "unit": "cell"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 0.73,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_ANTIBIOTIC_REAGENT_31",
+    "qty": 17.99,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_ABS_PLASTIC_09",
+    "qty": 20.38,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_DRONE_18",
+    "material_id": "MAT_CAMERA_MODULE_12",
+    "qty": 13.88,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_GYROSCOPE_29",
+    "qty": 9.27,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_CAMERA_MODULE_12",
+    "qty": 10.56,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_MICROCONTROLLER_33",
+    "qty": 17.14,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_SENSOR_ARRAY_18",
+    "qty": 26.97,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_ELECTRIC_MOTOR_07",
+    "qty": 17.6,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_SOLAR_INVERTER_19",
+    "material_id": "MAT_GLASS_COVER_15",
+    "qty": 25.4,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_WIFI_MODULE_19",
+    "qty": 24.51,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_CHARGER_CABLE_21",
+    "qty": 22.17,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_LED_BACKLIGHT_25",
+    "qty": 29.68,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_SEALING_TAPE_39",
+    "qty": 6.72,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_CAMERA_MODULE_12",
+    "qty": 15.81,
+    "unit": "unit"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_PACKAGING_10",
+    "qty": 17.47,
+    "unit": "kg"
+  },
+  {
+    "product_id": "PRD_HOME_THERMOSTAT_20",
+    "material_id": "MAT_DISPLAY_PANEL_03",
+    "qty": 18.66,
+    "unit": "panel"
+  }
+]

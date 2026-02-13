@@ -1,0 +1,376 @@
+[
+  {
+    "id": "FCT_ANT_01",
+    "type": "factory",
+    "name": "Antwerp Plant 01",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "region": "Europe",
+    "lat": 51.24074358671945,
+    "lon": 4.481466957164078,
+    "status": "operational",
+    "product_categories": [
+      "Consumer Electronics"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 34170
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_ROT_02",
+    "type": "factory",
+    "name": "Rotterdam Plant 02",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "region": "Europe",
+    "lat": 51.95402568785053,
+    "lon": 4.465458777972204,
+    "status": "operational",
+    "product_categories": [
+      "Consumer Electronics"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 14082
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_TOK_03",
+    "type": "factory",
+    "name": "Tokyo Plant 03",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "East Asia",
+    "lat": 35.85262543870724,
+    "lon": 139.64139167490626,
+    "status": "maintenance",
+    "product_categories": [
+      "Automotive"
+    ],
+    "capacity_units_per_week": {
+      "Automotive": 28260
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_ANT_04",
+    "type": "factory",
+    "name": "Antwerp Plant 04",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "region": "Europe",
+    "lat": 51.2711782827808,
+    "lon": 4.223943629717013,
+    "status": "operational",
+    "product_categories": [
+      "Consumer Electronics",
+      "Medical"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 38886,
+      "Medical": 21912
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_TOK_05",
+    "type": "factory",
+    "name": "Tokyo Plant 05",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "East Asia",
+    "lat": 35.52358062488459,
+    "lon": 139.75607737813047,
+    "status": "operational",
+    "product_categories": [
+      "Appliances"
+    ],
+    "capacity_units_per_week": {
+      "Appliances": 42528
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_BAN_06",
+    "type": "factory",
+    "name": "Bangkok Plant 06",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "region": "Southeast Asia",
+    "lat": 13.70845121045862,
+    "lon": 100.66520175104952,
+    "status": "operational",
+    "product_categories": [
+      "Medical"
+    ],
+    "capacity_units_per_week": {
+      "Medical": 40569
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_HON_07",
+    "type": "factory",
+    "name": "Hong Kong Plant 07",
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "East Asia",
+    "lat": 22.367710928428856,
+    "lon": 114.21325236489805,
+    "status": "operational",
+    "product_categories": [
+      "Automotive",
+      "Medical"
+    ],
+    "capacity_units_per_week": {
+      "Automotive": 15617,
+      "Medical": 42993
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_MEX_08",
+    "type": "factory",
+    "name": "Mexico City Plant 08",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "region": "North America",
+    "lat": 19.496771254876816,
+    "lon": -99.27037716264765,
+    "status": "operational",
+    "product_categories": [
+      "Automotive"
+    ],
+    "capacity_units_per_week": {
+      "Automotive": 6919
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_TOK_09",
+    "type": "factory",
+    "name": "Tokyo Plant 09",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "East Asia",
+    "lat": 35.63960702906401,
+    "lon": 139.72604845431388,
+    "status": "operational",
+    "product_categories": [
+      "Consumer Electronics"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 4139
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_HAM_10",
+    "type": "factory",
+    "name": "Hamburg Plant 10",
+    "city": "Hamburg",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 53.63388233195161,
+    "lon": 10.074895023237488,
+    "status": "operational",
+    "product_categories": [
+      "Automotive"
+    ],
+    "capacity_units_per_week": {
+      "Automotive": 47048
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_SHA_11",
+    "type": "factory",
+    "name": "Shanghai Plant 11",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "East Asia",
+    "lat": 31.34553121065869,
+    "lon": 121.52372320286568,
+    "status": "operational",
+    "product_categories": [
+      "Automotive"
+    ],
+    "capacity_units_per_week": {
+      "Automotive": 14964
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_BUS_12",
+    "type": "factory",
+    "name": "Busan Plant 12",
+    "city": "Busan",
+    "country": "South Korea",
+    "region": "East Asia",
+    "lat": 35.06952378010641,
+    "lon": 128.93519576043013,
+    "status": "operational",
+    "product_categories": [
+      "Consumer Electronics",
+      "Medical"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 11321,
+      "Medical": 6679
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_SHA_13",
+    "type": "factory",
+    "name": "Shanghai Plant 13",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "East Asia",
+    "lat": 31.347451426492963,
+    "lon": 121.51171761492776,
+    "status": "maintenance",
+    "product_categories": [
+      "Appliances"
+    ],
+    "capacity_units_per_week": {
+      "Appliances": 20914
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_JAK_14",
+    "type": "factory",
+    "name": "Jakarta Plant 14",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "region": "Southeast Asia",
+    "lat": -6.1333288035151625,
+    "lon": 106.92549347399029,
+    "status": "maintenance",
+    "product_categories": [
+      "Consumer Electronics",
+      "Industrial"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 34798,
+      "Industrial": 37388
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_KAO_15",
+    "type": "factory",
+    "name": "Kaohsiung Plant 15",
+    "city": "Kaohsiung",
+    "country": "Taiwan",
+    "region": "East Asia",
+    "lat": 22.666514664816443,
+    "lon": 120.45716915571698,
+    "status": "operational",
+    "product_categories": [
+      "Industrial",
+      "Consumer Electronics"
+    ],
+    "capacity_units_per_week": {
+      "Industrial": 41564,
+      "Consumer Electronics": 18408
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_ANT_16",
+    "type": "factory",
+    "name": "Antwerp Plant 16",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "region": "Europe",
+    "lat": 51.11096976628873,
+    "lon": 4.472219346868869,
+    "status": "maintenance",
+    "product_categories": [
+      "Consumer Electronics"
+    ],
+    "capacity_units_per_week": {
+      "Consumer Electronics": 40477
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_LON_17",
+    "type": "factory",
+    "name": "London Plant 17",
+    "city": "London",
+    "country": "UK",
+    "region": "Europe",
+    "lat": 51.63596849810335,
+    "lon": -0.09730120615890128,
+    "status": "operational",
+    "product_categories": [
+      "Retail"
+    ],
+    "capacity_units_per_week": {
+      "Retail": 13481
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_ANT_18",
+    "type": "factory",
+    "name": "Antwerp Plant 18",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "region": "Europe",
+    "lat": 51.38582911517071,
+    "lon": 4.27509565888925,
+    "status": "operational",
+    "product_categories": [
+      "Medical",
+      "Industrial"
+    ],
+    "capacity_units_per_week": {
+      "Medical": 43601,
+      "Industrial": 34225
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_HON_19",
+    "type": "factory",
+    "name": "Hong Kong Plant 19",
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "East Asia",
+    "lat": 22.25848442251786,
+    "lon": 114.10272335746603,
+    "status": "operational",
+    "product_categories": [
+      "Industrial"
+    ],
+    "capacity_units_per_week": {
+      "Industrial": 12539
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  },
+  {
+    "id": "FCT_VAN_20",
+    "type": "factory",
+    "name": "Vancouver Plant 20",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "North America",
+    "lat": 49.19798711814458,
+    "lon": -122.94262258417471,
+    "status": "maintenance",
+    "product_categories": [
+      "Industrial",
+      "Retail"
+    ],
+    "capacity_units_per_week": {
+      "Industrial": 38051,
+      "Retail": 4404
+    },
+    "last_updated": "2026-02-13T10:13:53Z"
+  }
+]

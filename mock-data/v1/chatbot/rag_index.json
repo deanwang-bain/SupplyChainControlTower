@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "docs": [
+    {
+      "doc_id": "DOC_001_GLOSSARY",
+      "filename": "DOC_001_GLOSSARY.md",
+      "keywords": [
+        "glossary",
+        "definitions",
+        "terms",
+        "variance",
+        "eta"
+      ]
+    },
+    {
+      "doc_id": "DOC_002_DATA_SOURCES_V1",
+      "filename": "DOC_002_DATA_SOURCES_V1.md",
+      "keywords": [
+        "data",
+        "json",
+        "mock-data",
+        "sources",
+        "schema"
+      ]
+    },
+    {
+      "doc_id": "DOC_003_RISK_SCORE",
+      "filename": "DOC_003_RISK_SCORE.md",
+      "keywords": [
+        "risk",
+        "score",
+        "alerts"
+      ]
+    },
+    {
+      "doc_id": "DOC_004_SCENARIOS",
+      "filename": "DOC_004_SCENARIOS.md",
+      "keywords": [
+        "scenario",
+        "what-if",
+        "author",
+        "effects",
+        "delay_multiplier",
+        "closed"
+      ]
+    },
+    {
+      "doc_id": "DOC_005_ROUTING_PLAYBOOK",
+      "filename": "DOC_005_ROUTING_PLAYBOOK.md",
+      "keywords": [
+        "reroute",
+        "mitigation",
+        "alternative",
+        "mode shift"
+      ]
+    },
+    {
+      "doc_id": "DOC_006_ENTITY_DIRECTORY",
+      "filename": "DOC_006_ENTITY_DIRECTORY.md",
+      "keywords": [
+        "entity",
+        "port",
+        "airport",
+        "warehouse",
+        "factory",
+        "directory"
+      ]
+    },
+    {
+      "doc_id": "DOC_007_PRODUCT_CATALOG",
+      "filename": "DOC_007_PRODUCT_CATALOG.md",
+      "keywords": [
+        "product",
+        "material",
+        "bom",
+        "catalog"
+      ]
+    },
+    {
+      "doc_id": "DOC_008_FAQ",
+      "filename": "DOC_008_FAQ.md",
+      "keywords": [
+        "faq",
+        "help"
+      ]
+    },
+    {
+      "doc_id": "DOC_009_CITATION_RULES",
+      "filename": "DOC_009_CITATION_RULES.md",
+      "keywords": [
+        "citation",
+        "sources",
+        "format"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "item": {
+    "id": "MAT_GLASS_COVER_15",
+    "type": "material",
+    "name": "Glass Cover",
+    "category": "Packaging",
+    "unit": "unit",
+    "description": "Synthetic material record for Glass Cover.",
+    "active": true
+  },
+  "tree_type": "material_supply_chain",
+  "metric_options": [
+    {
+      "id": "avg_days",
+      "label": "Avg days (historical)"
+    },
+    {
+      "id": "transit_time_variance_days",
+      "label": "Variance of transit time"
+    },
+    {
+      "id": "delay_vs_plan_variance_days",
+      "label": "Variance of delay vs plan"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "TNODE_001",
+      "entity_id": "FCT_TOK_09",
+      "name": "Tokyo Plant 09",
+      "node_type": "supplier_factory",
+      "lat": 35.63960702906401,
+      "lon": 139.72604845431388,
+      "metrics": {
+        "dwell_avg_days": 0.6,
+        "transit_time_variance_days": 0.33,
+        "delay_vs_plan_variance_days": 0.2,
+        "handling_cost_usd": 2045.92,
+        "dwell_forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "dwell_days_forecast": 0.75
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "dwell_days_forecast": 0.81
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "dwell_days_forecast": 0.67
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "dwell_days_forecast": 0.75
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "dwell_days_forecast": 0.56
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "dwell_days_forecast": 0.8
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "dwell_days_forecast": 0.66
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "dwell_days_forecast": 0.34
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "dwell_days_forecast": 0.63
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "dwell_days_forecast": 0.44
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "dwell_days_forecast": 0.43
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "dwell_days_forecast": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "TNODE_002",
+      "entity_id": "PRT_TOK",
+      "name": "Port of Tokyo",
+      "node_type": "export_port",
+      "lat": 35.70172651966358,
+      "lon": 139.66928676320995,
+      "metrics": {
+        "dwell_avg_days": 1.94,
+        "transit_time_variance_days": 0.05,
+        "delay_vs_plan_variance_days": 0.05,
+        "handling_cost_usd": 2540.76,
+        "dwell_forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "dwell_days_forecast": 1.39
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "dwell_days_forecast": 1.67
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "dwell_days_forecast": 1.67
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "dwell_days_forecast": 1.57
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "dwell_days_forecast": 1.85
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "dwell_days_forecast": 1.81
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "dwell_days_forecast": 1.7
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "dwell_days_forecast": 2.01
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "dwell_days_forecast": 1.83
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "dwell_days_forecast": 1.92
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "dwell_days_forecast": 2.0
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "dwell_days_forecast": 1.69
+          }
+        ]
+      }
+    },
+    {
+      "id": "TNODE_003",
+      "entity_id": "PRT_VAN",
+      "name": "Port of Vancouver",
+      "node_type": "import_port",
+      "lat": 49.260519070823065,
+      "lon": -123.0837699679207,
+      "metrics": {
+        "dwell_avg_days": 1.01,
+        "transit_time_variance_days": 1.37,
+        "delay_vs_plan_variance_days": 1.02,
+        "handling_cost_usd": 4285.55,
+        "dwell_forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "dwell_days_forecast": 0.74
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "dwell_days_forecast": 1.04
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "dwell_days_forecast": 1.05
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "dwell_days_forecast": 0.79
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "dwell_days_forecast": 1.02
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "dwell_days_forecast": 0.86
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "dwell_days_forecast": 0.83
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "dwell_days_forecast": 0.85
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "dwell_days_forecast": 1.12
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "dwell_days_forecast": 0.85
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "dwell_days_forecast": 0.94
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "dwell_days_forecast": 0.94
+          }
+        ]
+      }
+    },
+    {
+      "id": "TNODE_004",
+      "entity_id": "FCT_VAN_20",
+      "name": "Vancouver Plant 20",
+      "node_type": "consuming_factory",
+      "lat": 49.19798711814458,
+      "lon": -122.94262258417471,
+      "metrics": {
+        "dwell_avg_days": 2.18,
+        "transit_time_variance_days": 1.59,
+        "delay_vs_plan_variance_days": 1.35,
+        "handling_cost_usd": 3650.24,
+        "dwell_forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "dwell_days_forecast": 2.24
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "dwell_days_forecast": 2.0
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "dwell_days_forecast": 1.94
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "dwell_days_forecast": 2.09
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "dwell_days_forecast": 2.33
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "dwell_days_forecast": 2.23
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "dwell_days_forecast": 2.21
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "dwell_days_forecast": 2.09
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "dwell_days_forecast": 2.43
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "dwell_days_forecast": 2.24
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "dwell_days_forecast": 2.14
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "dwell_days_forecast": 2.17
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "TEDGE_001",
+      "from_node_id": "TNODE_001",
+      "to_node_id": "TNODE_002",
+      "label": "Pickup to export port",
+      "underlying_segment_ids": [
+        "SEG_00393"
+      ],
+      "mode_mix": [
+        "road"
+      ],
+      "geometry": [
+        [
+          139.72604845431388,
+          35.63960702906401
+        ],
+        [
+          139.7146961160931,
+          35.65203092718392
+        ],
+        [
+          139.7033437778723,
+          35.664454825303835
+        ],
+        [
+          139.69199143965153,
+          35.676878723423755
+        ],
+        [
+          139.68063910143073,
+          35.68930262154367
+        ],
+        [
+          139.66928676320995,
+          35.70172651966358
+        ]
+      ],
+      "metrics": {
+        "avg_days": 0.76,
+        "transit_time_variance_days": 1.02,
+        "delay_vs_plan_variance_days": 0.76,
+        "cost_usd_per_ton": 766.59,
+        "time_distribution": {
+          "p10": 0.1,
+          "p50": 0.76,
+          "p90": 2.38
+        },
+        "forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "avg_days_forecast": 0.62,
+            "variance_days_forecast": 1.01,
+            "cost_usd_per_ton_forecast": 756.42
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "avg_days_forecast": 0.6,
+            "variance_days_forecast": 0.93,
+            "cost_usd_per_ton_forecast": 768.45
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "avg_days_forecast": 0.52,
+            "variance_days_forecast": 0.95,
+            "cost_usd_per_ton_forecast": 790.71
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "avg_days_forecast": 0.71,
+            "variance_days_forecast": 1.04,
+            "cost_usd_per_ton_forecast": 751.26
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "avg_days_forecast": 0.53,
+            "variance_days_forecast": 0.96,
+            "cost_usd_per_ton_forecast": 761.78
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "avg_days_forecast": 0.69,
+            "variance_days_forecast": 0.92,
+            "cost_usd_per_ton_forecast": 777.51
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "avg_days_forecast": 0.85,
+            "variance_days_forecast": 1.01,
+            "cost_usd_per_ton_forecast": 793.01
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "avg_days_forecast": 0.73,
+            "variance_days_forecast": 1.0,
+            "cost_usd_per_ton_forecast": 779.71
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "avg_days_forecast": 0.46,
+            "variance_days_forecast": 0.93,
+            "cost_usd_per_ton_forecast": 780.26
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "avg_days_forecast": 0.78,
+            "variance_days_forecast": 1.05,
+            "cost_usd_per_ton_forecast": 779.27
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "avg_days_forecast": 0.36,
+            "variance_days_forecast": 0.92,
+            "cost_usd_per_ton_forecast": 721.2
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "avg_days_forecast": 0.32,
+            "variance_days_forecast": 0.98,
+            "cost_usd_per_ton_forecast": 795.26
+          }
+        ]
+      }
+    },
+    {
+      "id": "TEDGE_002",
+      "from_node_id": "TNODE_002",
+      "to_node_id": "TNODE_003",
+      "label": "Main leg",
+      "underlying_segment_ids": [
+        "SEG_00530",
+        "SEG_00406",
+        "SEG_00407",
+        "SEG_00609",
+        "SEG_00360",
+        "SEG_00357"
+      ],
+      "mode_mix": [
+        "air",
+        "road",
+        "sea"
+      ],
+      "geometry": [
+        [
+          139.66928676320995,
+          35.70172651966358
+        ],
+        [
+          137.55090092738868,
+          35.59606321740915
+        ],
+        [
+          135.4325150915674,
+          35.490399915154725
+        ],
+        [
+          133.3141292557461,
+          35.384736612900305
+        ],
+        [
+          131.19574341992484,
+          35.27907331064588
+        ],
+        [
+          129.07735758410357,
+          35.17341000839145
+        ],
+        [
+          129.04892521936887,
+          35.15263276273444
+        ],
+        [
+          129.0204928546342,
+          35.13185551707743
+        ],
+        [
+          128.9920604898995,
+          35.111078271420425
+        ],
+        [
+          128.96362812516483,
+          35.09030102576342
+        ],
+        [
+          128.93519576043013,
+          35.06952378010641
+        ],
+        [
+          128.96667475092988,
+          35.08977328741616
+        ],
+        [
+          128.9981537414296,
+          35.11002279472591
+        ],
+        [
+          129.02963273192935,
+          35.13027230203566
+        ],
+        [
+          129.06111172242908,
+          35.150521809345406
+        ],
+        [
+          129.09259071292882,
+          35.170771316655156
+        ],
+        [
+          78.65930675764244,
+          37.989091209834015
+        ],
+        [
+          28.226022802356056,
+          40.807411103012875
+        ],
+        [
+          -22.2072611529303,
+          43.625730996191734
+        ],
+        [
+          -72.64054510821671,
+          46.444050889370594
+        ],
+        [
+          -123.07382906350307,
+          49.26237078254945
+        ],
+        [
+          -123.07382906350308,
+          49.26237078254945
+        ],
+        [
+          -123.04347273368572,
+          49.253937217571256
+        ],
+        [
+          -123.01311640386835,
+          49.245503652593065
+        ],
+        [
+          -122.982760074051,
+          49.23707008761487
+        ],
+        [
+          -122.95240374423364,
+          49.22863652263668
+        ],
+        [
+          -122.92204741441627,
+          49.22020295765848
+        ],
+        [
+          -122.95439192511715,
+          49.2282661802914
+        ],
+        [
+          -122.98673643581805,
+          49.23632940292431
+        ],
+        [
+          -123.01908094651893,
+          49.24439262555723
+        ],
+        [
+          -123.05142545721982,
+          49.252455848190145
+        ],
+        [
+          -123.0837699679207,
+          49.260519070823065
+        ]
+      ],
+      "metrics": {
+        "avg_days": 5.03,
+        "transit_time_variance_days": 4.39,
+        "delay_vs_plan_variance_days": 2.63,
+        "cost_usd_per_ton": 6456.76,
+        "time_distribution": {
+          "p10": 2.52,
+          "p50": 5.03,
+          "p90": 8.38
+        },
+        "forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "avg_days_forecast": 4.93,
+            "variance_days_forecast": 4.19,
+            "cost_usd_per_ton_forecast": 6560.02
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "avg_days_forecast": 4.99,
+            "variance_days_forecast": 3.95,
+            "cost_usd_per_ton_forecast": 6680.77
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "avg_days_forecast": 5.19,
+            "variance_days_forecast": 4.33,
+            "cost_usd_per_ton_forecast": 6709.39
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "avg_days_forecast": 4.84,
+            "variance_days_forecast": 4.27,
+            "cost_usd_per_ton_forecast": 6317.91
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "avg_days_forecast": 4.64,
+            "variance_days_forecast": 4.41,
+            "cost_usd_per_ton_forecast": 6118.68
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "avg_days_forecast": 4.95,
+            "variance_days_forecast": 4.33,
+            "cost_usd_per_ton_forecast": 6151.21
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "avg_days_forecast": 4.06,
+            "variance_days_forecast": 4.41,
+            "cost_usd_per_ton_forecast": 6591.74
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "avg_days_forecast": 4.54,
+            "variance_days_forecast": 4.14,
+            "cost_usd_per_ton_forecast": 6479.89
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "avg_days_forecast": 4.97,
+            "variance_days_forecast": 4.09,
+            "cost_usd_per_ton_forecast": 6282.26
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "avg_days_forecast": 4.36,
+            "variance_days_forecast": 4.14,
+            "cost_usd_per_ton_forecast": 6455.75
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "avg_days_forecast": 4.03,
+            "variance_days_forecast": 3.96,
+            "cost_usd_per_ton_forecast": 6524.18
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "avg_days_forecast": 4.64,
+            "variance_days_forecast": 4.33,
+            "cost_usd_per_ton_forecast": 6244.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "TEDGE_003",
+      "from_node_id": "TNODE_003",
+      "to_node_id": "TNODE_004",
+      "label": "Delivery to plant",
+      "underlying_segment_ids": [
+        "SEG_00438"
+      ],
+      "mode_mix": [
+        "road"
+      ],
+      "geometry": [
+        [
+          -123.0837699679207,
+          49.260519070823065
+        ],
+        [
+          -123.0555404911715,
+          49.24801268028737
+        ],
+        [
+          -123.02731101442231,
+          49.23550628975167
+        ],
+        [
+          -122.9990815376731,
+          49.22299989921598
+        ],
+        [
+          -122.97085206092392,
+          49.21049350868028
+        ],
+        [
+          -122.94262258417471,
+          49.19798711814458
+        ]
+      ],
+      "metrics": {
+        "avg_days": 0.6,
+        "transit_time_variance_days": 1.58,
+        "delay_vs_plan_variance_days": 1.09,
+        "cost_usd_per_ton": 655.52,
+        "time_distribution": {
+          "p10": 0.1,
+          "p50": 0.6,
+          "p90": 2.61
+        },
+        "forecast_next_12w": [
+          {
+            "week_start": "2026-02-13T10:13:53Z",
+            "avg_days_forecast": 0.68,
+            "variance_days_forecast": 1.58,
+            "cost_usd_per_ton_forecast": 632.61
+          },
+          {
+            "week_start": "2026-02-20T10:13:53Z",
+            "avg_days_forecast": 0.38,
+            "variance_days_forecast": 1.51,
+            "cost_usd_per_ton_forecast": 640.15
+          },
+          {
+            "week_start": "2026-02-27T10:13:53Z",
+            "avg_days_forecast": 1.1,
+            "variance_days_forecast": 1.56,
+            "cost_usd_per_ton_forecast": 654.51
+          },
+          {
+            "week_start": "2026-03-06T10:13:53Z",
+            "avg_days_forecast": 0.7,
+            "variance_days_forecast": 1.61,
+            "cost_usd_per_ton_forecast": 627.53
+          },
+          {
+            "week_start": "2026-03-13T10:13:53Z",
+            "avg_days_forecast": 0.96,
+            "variance_days_forecast": 1.56,
+            "cost_usd_per_ton_forecast": 625.6
+          },
+          {
+            "week_start": "2026-03-20T10:13:53Z",
+            "avg_days_forecast": 0.67,
+            "variance_days_forecast": 1.6,
+            "cost_usd_per_ton_forecast": 653.59
+          },
+          {
+            "week_start": "2026-03-27T10:13:53Z",
+            "avg_days_forecast": 0.43,
+            "variance_days_forecast": 1.52,
+            "cost_usd_per_ton_forecast": 658.55
+          },
+          {
+            "week_start": "2026-04-03T10:13:53Z",
+            "avg_days_forecast": 0.47,
+            "variance_days_forecast": 1.61,
+            "cost_usd_per_ton_forecast": 641.41
+          },
+          {
+            "week_start": "2026-04-10T10:13:53Z",
+            "avg_days_forecast": 0.43,
+            "variance_days_forecast": 1.54,
+            "cost_usd_per_ton_forecast": 676.11
+          },
+          {
+            "week_start": "2026-04-17T10:13:53Z",
+            "avg_days_forecast": 0.59,
+            "variance_days_forecast": 1.6,
+            "cost_usd_per_ton_forecast": 680.09
+          },
+          {
+            "week_start": "2026-04-24T10:13:53Z",
+            "avg_days_forecast": 0.56,
+            "variance_days_forecast": 1.57,
+            "cost_usd_per_ton_forecast": 676.16
+          },
+          {
+            "week_start": "2026-05-01T10:13:53Z",
+            "avg_days_forecast": 0.35,
+            "variance_days_forecast": 1.57,
+            "cost_usd_per_ton_forecast": 639.13
+          }
+        ]
+      }
+    }
+  ]
+}

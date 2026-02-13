@@ -1,0 +1,2809 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "baseline_kpis": {
+    "generated_at": "2026-02-13T10:13:53Z",
+    "total_segments": 650,
+    "total_volume_tons_per_week": 703938.0,
+    "weighted_avg_delay_days": 0.69,
+    "segments_disrupted": 28,
+    "segments_at_risk": 138
+  },
+  "predefined_scenarios": [
+    {
+      "id": "SCN_CANAL_001",
+      "name": "Canal Disruption (EU↔Asia Sea)",
+      "description": "Sea corridor disruption causing additional delays and reduced throughput on affected lanes.",
+      "created_by": "system",
+      "created_at": "2026-02-13T10:13:53Z",
+      "effects": [
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00536",
+          "effect_type": "delay_add_days",
+          "value": 6.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00536",
+          "effect_type": "capacity_multiplier",
+          "value": 0.88
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00477",
+          "effect_type": "delay_add_days",
+          "value": 10.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00477",
+          "effect_type": "capacity_multiplier",
+          "value": 0.75
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00547",
+          "effect_type": "delay_add_days",
+          "value": 10.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00547",
+          "effect_type": "capacity_multiplier",
+          "value": 0.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00077",
+          "effect_type": "delay_add_days",
+          "value": 7.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00077",
+          "effect_type": "capacity_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00541",
+          "effect_type": "delay_add_days",
+          "value": 10.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00541",
+          "effect_type": "capacity_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00572",
+          "effect_type": "delay_add_days",
+          "value": 12.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00572",
+          "effect_type": "capacity_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00085",
+          "effect_type": "delay_add_days",
+          "value": 9.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00085",
+          "effect_type": "capacity_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00018",
+          "effect_type": "delay_add_days",
+          "value": 8.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00018",
+          "effect_type": "capacity_multiplier",
+          "value": 0.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00001",
+          "effect_type": "delay_add_days",
+          "value": 14.0
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00001",
+          "effect_type": "capacity_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00475",
+          "effect_type": "delay_add_days",
+          "value": 6.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00475",
+          "effect_type": "capacity_multiplier",
+          "value": 0.65
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00487",
+          "effect_type": "delay_add_days",
+          "value": 9.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00487",
+          "effect_type": "capacity_multiplier",
+          "value": 0.89
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00078",
+          "effect_type": "delay_add_days",
+          "value": 6.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00078",
+          "effect_type": "capacity_multiplier",
+          "value": 0.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00114",
+          "effect_type": "delay_add_days",
+          "value": 9.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00114",
+          "effect_type": "capacity_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00003",
+          "effect_type": "delay_add_days",
+          "value": 9.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00003",
+          "effect_type": "capacity_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00542",
+          "effect_type": "delay_add_days",
+          "value": 12.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00542",
+          "effect_type": "capacity_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00072",
+          "effect_type": "delay_add_days",
+          "value": 11.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00072",
+          "effect_type": "capacity_multiplier",
+          "value": 0.87
+        }
+      ],
+      "tags": [],
+      "notes": "Predefined mock scenario. Users can author new scenarios in Tab 3."
+    },
+    {
+      "id": "SCN_TYPHOON_001",
+      "name": "Typhoon (East Asia)",
+      "description": "Weather-driven disruption impacting East Asia and Southeast Asia sea/air lanes.",
+      "created_by": "system",
+      "created_at": "2026-02-13T10:13:53Z",
+      "effects": [
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00489",
+          "effect_type": "delay_add_days",
+          "value": 7.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00612",
+          "effect_type": "delay_add_days",
+          "value": 3.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00179",
+          "effect_type": "delay_add_days",
+          "value": 8.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00089",
+          "effect_type": "delay_add_days",
+          "value": 7.0
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00121",
+          "effect_type": "delay_add_days",
+          "value": 6.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00186",
+          "effect_type": "delay_add_days",
+          "value": 2.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00044",
+          "effect_type": "delay_add_days",
+          "value": 3.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00181",
+          "effect_type": "delay_add_days",
+          "value": 4.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00023",
+          "effect_type": "delay_add_days",
+          "value": 3.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00487",
+          "effect_type": "delay_add_days",
+          "value": 3.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00487",
+          "effect_type": "closed",
+          "value": true
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00006",
+          "effect_type": "delay_add_days",
+          "value": 5.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00009",
+          "effect_type": "delay_add_days",
+          "value": 2.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00140",
+          "effect_type": "delay_add_days",
+          "value": 5.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00032",
+          "effect_type": "delay_add_days",
+          "value": 8.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00013",
+          "effect_type": "delay_add_days",
+          "value": 6.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00155",
+          "effect_type": "delay_add_days",
+          "value": 6.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00012",
+          "effect_type": "delay_add_days",
+          "value": 5.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00107",
+          "effect_type": "delay_add_days",
+          "value": 8.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00634",
+          "effect_type": "delay_add_days",
+          "value": 2.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00106",
+          "effect_type": "delay_add_days",
+          "value": 5.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00040",
+          "effect_type": "delay_add_days",
+          "value": 7.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00027",
+          "effect_type": "delay_add_days",
+          "value": 9.0
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00648",
+          "effect_type": "delay_add_days",
+          "value": 6.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00559",
+          "effect_type": "delay_add_days",
+          "value": 6.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00025",
+          "effect_type": "delay_add_days",
+          "value": 7.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00087",
+          "effect_type": "delay_add_days",
+          "value": 2.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00087",
+          "effect_type": "closed",
+          "value": true
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00028",
+          "effect_type": "delay_add_days",
+          "value": 6.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00533",
+          "effect_type": "delay_add_days",
+          "value": 4.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00158",
+          "effect_type": "delay_add_days",
+          "value": 3.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00547",
+          "effect_type": "delay_add_days",
+          "value": 7.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00543",
+          "effect_type": "delay_add_days",
+          "value": 4.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00076",
+          "effect_type": "delay_add_days",
+          "value": 4.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00065",
+          "effect_type": "delay_add_days",
+          "value": 5.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00499",
+          "effect_type": "delay_add_days",
+          "value": 4.4
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00631",
+          "effect_type": "delay_add_days",
+          "value": 6.0
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00631",
+          "effect_type": "closed",
+          "value": true
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00099",
+          "effect_type": "delay_add_days",
+          "value": 4.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00187",
+          "effect_type": "delay_add_days",
+          "value": 9.0
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00187",
+          "effect_type": "closed",
+          "value": true
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00592",
+          "effect_type": "delay_add_days",
+          "value": 8.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00486",
+          "effect_type": "delay_add_days",
+          "value": 7.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00072",
+          "effect_type": "delay_add_days",
+          "value": 5.9
+        }
+      ],
+      "tags": [],
+      "notes": "Predefined mock scenario. Users can author new scenarios in Tab 3."
+    },
+    {
+      "id": "SCN_STRIKE_001",
+      "name": "Road Labor Strike (EU)",
+      "description": "Road capacity reduction and delays across Europe feeder network.",
+      "created_by": "system",
+      "created_at": "2026-02-13T10:13:53Z",
+      "effects": [
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00259",
+          "effect_type": "delay_multiplier",
+          "value": 2.05
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00259",
+          "effect_type": "volume_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00322",
+          "effect_type": "delay_multiplier",
+          "value": 1.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00322",
+          "effect_type": "volume_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00314",
+          "effect_type": "delay_multiplier",
+          "value": 1.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00314",
+          "effect_type": "volume_multiplier",
+          "value": 0.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00229",
+          "effect_type": "delay_multiplier",
+          "value": 2.41
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00229",
+          "effect_type": "volume_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00461",
+          "effect_type": "delay_multiplier",
+          "value": 1.73
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00461",
+          "effect_type": "volume_multiplier",
+          "value": 0.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00423",
+          "effect_type": "delay_multiplier",
+          "value": 1.96
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00423",
+          "effect_type": "volume_multiplier",
+          "value": 0.55
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00424",
+          "effect_type": "delay_multiplier",
+          "value": 1.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00424",
+          "effect_type": "volume_multiplier",
+          "value": 0.44
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00368",
+          "effect_type": "delay_multiplier",
+          "value": 1.71
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00368",
+          "effect_type": "volume_multiplier",
+          "value": 0.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00458",
+          "effect_type": "delay_multiplier",
+          "value": 2.05
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00458",
+          "effect_type": "volume_multiplier",
+          "value": 0.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00451",
+          "effect_type": "delay_multiplier",
+          "value": 1.98
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00451",
+          "effect_type": "volume_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00363",
+          "effect_type": "delay_multiplier",
+          "value": 1.82
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00363",
+          "effect_type": "volume_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00429",
+          "effect_type": "delay_multiplier",
+          "value": 1.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00429",
+          "effect_type": "volume_multiplier",
+          "value": 0.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00261",
+          "effect_type": "delay_multiplier",
+          "value": 1.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00261",
+          "effect_type": "volume_multiplier",
+          "value": 0.49
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00321",
+          "effect_type": "delay_multiplier",
+          "value": 1.88
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00321",
+          "effect_type": "volume_multiplier",
+          "value": 0.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00397",
+          "effect_type": "delay_multiplier",
+          "value": 2.48
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00397",
+          "effect_type": "volume_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00460",
+          "effect_type": "delay_multiplier",
+          "value": 2.22
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00460",
+          "effect_type": "volume_multiplier",
+          "value": 0.43
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00361",
+          "effect_type": "delay_multiplier",
+          "value": 2.01
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00361",
+          "effect_type": "volume_multiplier",
+          "value": 0.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00315",
+          "effect_type": "delay_multiplier",
+          "value": 2.43
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00315",
+          "effect_type": "volume_multiplier",
+          "value": 0.73
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00452",
+          "effect_type": "delay_multiplier",
+          "value": 2.39
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00452",
+          "effect_type": "volume_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00273",
+          "effect_type": "delay_multiplier",
+          "value": 1.97
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00273",
+          "effect_type": "volume_multiplier",
+          "value": 0.55
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00376",
+          "effect_type": "delay_multiplier",
+          "value": 1.83
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00376",
+          "effect_type": "volume_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00463",
+          "effect_type": "delay_multiplier",
+          "value": 1.63
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00463",
+          "effect_type": "volume_multiplier",
+          "value": 0.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00457",
+          "effect_type": "delay_multiplier",
+          "value": 2.11
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00457",
+          "effect_type": "volume_multiplier",
+          "value": 0.56
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00302",
+          "effect_type": "delay_multiplier",
+          "value": 2.14
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00302",
+          "effect_type": "volume_multiplier",
+          "value": 0.78
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00373",
+          "effect_type": "delay_multiplier",
+          "value": 1.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00373",
+          "effect_type": "volume_multiplier",
+          "value": 0.41
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00230",
+          "effect_type": "delay_multiplier",
+          "value": 1.88
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00230",
+          "effect_type": "volume_multiplier",
+          "value": 0.71
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00258",
+          "effect_type": "delay_multiplier",
+          "value": 2.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00258",
+          "effect_type": "volume_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00367",
+          "effect_type": "delay_multiplier",
+          "value": 1.96
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00367",
+          "effect_type": "volume_multiplier",
+          "value": 0.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00275",
+          "effect_type": "delay_multiplier",
+          "value": 1.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00275",
+          "effect_type": "volume_multiplier",
+          "value": 0.41
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00260",
+          "effect_type": "delay_multiplier",
+          "value": 2.18
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00260",
+          "effect_type": "volume_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00243",
+          "effect_type": "delay_multiplier",
+          "value": 1.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00243",
+          "effect_type": "volume_multiplier",
+          "value": 0.47
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00262",
+          "effect_type": "delay_multiplier",
+          "value": 2.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00262",
+          "effect_type": "volume_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00245",
+          "effect_type": "delay_multiplier",
+          "value": 2.21
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00245",
+          "effect_type": "volume_multiplier",
+          "value": 0.44
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00301",
+          "effect_type": "delay_multiplier",
+          "value": 2.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00301",
+          "effect_type": "volume_multiplier",
+          "value": 0.55
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00244",
+          "effect_type": "delay_multiplier",
+          "value": 2.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00244",
+          "effect_type": "volume_multiplier",
+          "value": 0.54
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00428",
+          "effect_type": "delay_multiplier",
+          "value": 2.43
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00428",
+          "effect_type": "volume_multiplier",
+          "value": 0.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00399",
+          "effect_type": "delay_multiplier",
+          "value": 2.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00399",
+          "effect_type": "volume_multiplier",
+          "value": 0.45
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00398",
+          "effect_type": "delay_multiplier",
+          "value": 1.95
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00398",
+          "effect_type": "volume_multiplier",
+          "value": 0.59
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00365",
+          "effect_type": "delay_multiplier",
+          "value": 2.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00365",
+          "effect_type": "volume_multiplier",
+          "value": 0.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00422",
+          "effect_type": "delay_multiplier",
+          "value": 2.07
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00422",
+          "effect_type": "volume_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00304",
+          "effect_type": "delay_multiplier",
+          "value": 2.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00304",
+          "effect_type": "volume_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00248",
+          "effect_type": "delay_multiplier",
+          "value": 2.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00248",
+          "effect_type": "volume_multiplier",
+          "value": 0.72
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00425",
+          "effect_type": "delay_multiplier",
+          "value": 2.72
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00425",
+          "effect_type": "volume_multiplier",
+          "value": 0.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00459",
+          "effect_type": "delay_multiplier",
+          "value": 2.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00459",
+          "effect_type": "volume_multiplier",
+          "value": 0.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00375",
+          "effect_type": "delay_multiplier",
+          "value": 1.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00375",
+          "effect_type": "volume_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00456",
+          "effect_type": "delay_multiplier",
+          "value": 2.17
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00456",
+          "effect_type": "volume_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00316",
+          "effect_type": "delay_multiplier",
+          "value": 2.54
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00316",
+          "effect_type": "volume_multiplier",
+          "value": 0.55
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00454",
+          "effect_type": "delay_multiplier",
+          "value": 2.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00454",
+          "effect_type": "volume_multiplier",
+          "value": 0.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00313",
+          "effect_type": "delay_multiplier",
+          "value": 2.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00313",
+          "effect_type": "volume_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00421",
+          "effect_type": "delay_multiplier",
+          "value": 1.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00421",
+          "effect_type": "volume_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00303",
+          "effect_type": "delay_multiplier",
+          "value": 1.93
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00303",
+          "effect_type": "volume_multiplier",
+          "value": 0.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00276",
+          "effect_type": "delay_multiplier",
+          "value": 1.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00276",
+          "effect_type": "volume_multiplier",
+          "value": 0.63
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00366",
+          "effect_type": "delay_multiplier",
+          "value": 2.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00366",
+          "effect_type": "volume_multiplier",
+          "value": 0.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00362",
+          "effect_type": "delay_multiplier",
+          "value": 2.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00362",
+          "effect_type": "volume_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00247",
+          "effect_type": "delay_multiplier",
+          "value": 2.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00247",
+          "effect_type": "volume_multiplier",
+          "value": 0.65
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00453",
+          "effect_type": "delay_multiplier",
+          "value": 2.36
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00453",
+          "effect_type": "volume_multiplier",
+          "value": 0.73
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00462",
+          "effect_type": "delay_multiplier",
+          "value": 2.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00462",
+          "effect_type": "volume_multiplier",
+          "value": 0.46
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00427",
+          "effect_type": "delay_multiplier",
+          "value": 1.86
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00427",
+          "effect_type": "volume_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00264",
+          "effect_type": "delay_multiplier",
+          "value": 2.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00264",
+          "effect_type": "volume_multiplier",
+          "value": 0.75
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00432",
+          "effect_type": "delay_multiplier",
+          "value": 2.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00432",
+          "effect_type": "volume_multiplier",
+          "value": 0.6
+        }
+      ],
+      "tags": [],
+      "notes": "Predefined mock scenario. Users can author new scenarios in Tab 3."
+    },
+    {
+      "id": "SCN_AIR_001",
+      "name": "Air Capacity Crunch",
+      "description": "Reduced air freight capacity and higher costs on many air lanes.",
+      "created_by": "system",
+      "created_at": "2026-02-13T10:13:53Z",
+      "effects": [
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00192",
+          "effect_type": "delay_add_days",
+          "value": 0.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00192",
+          "effect_type": "capacity_multiplier",
+          "value": 0.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00192",
+          "effect_type": "cost_multiplier",
+          "value": 1.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00594",
+          "effect_type": "delay_add_days",
+          "value": 1.01
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00594",
+          "effect_type": "capacity_multiplier",
+          "value": 0.71
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00594",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00181",
+          "effect_type": "delay_add_days",
+          "value": 1.38
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00181",
+          "effect_type": "capacity_multiplier",
+          "value": 0.75
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00181",
+          "effect_type": "cost_multiplier",
+          "value": 1.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00636",
+          "effect_type": "delay_add_days",
+          "value": 0.94
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00636",
+          "effect_type": "capacity_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00636",
+          "effect_type": "cost_multiplier",
+          "value": 1.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00131",
+          "effect_type": "delay_add_days",
+          "value": 0.57
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00131",
+          "effect_type": "capacity_multiplier",
+          "value": 0.81
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00131",
+          "effect_type": "cost_multiplier",
+          "value": 1.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00149",
+          "effect_type": "delay_add_days",
+          "value": 0.96
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00149",
+          "effect_type": "capacity_multiplier",
+          "value": 0.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00149",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00626",
+          "effect_type": "delay_add_days",
+          "value": 1.31
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00626",
+          "effect_type": "capacity_multiplier",
+          "value": 0.75
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00626",
+          "effect_type": "cost_multiplier",
+          "value": 1.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00647",
+          "effect_type": "delay_add_days",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00647",
+          "effect_type": "capacity_multiplier",
+          "value": 0.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00647",
+          "effect_type": "cost_multiplier",
+          "value": 1.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00632",
+          "effect_type": "delay_add_days",
+          "value": 0.75
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00632",
+          "effect_type": "capacity_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00632",
+          "effect_type": "cost_multiplier",
+          "value": 1.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00127",
+          "effect_type": "delay_add_days",
+          "value": 0.48
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00127",
+          "effect_type": "capacity_multiplier",
+          "value": 0.79
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00127",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00125",
+          "effect_type": "delay_add_days",
+          "value": 1.18
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00125",
+          "effect_type": "capacity_multiplier",
+          "value": 0.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00125",
+          "effect_type": "cost_multiplier",
+          "value": 1.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00595",
+          "effect_type": "delay_add_days",
+          "value": 0.73
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00595",
+          "effect_type": "capacity_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00595",
+          "effect_type": "cost_multiplier",
+          "value": 1.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00584",
+          "effect_type": "delay_add_days",
+          "value": 1.17
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00584",
+          "effect_type": "capacity_multiplier",
+          "value": 0.85
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00584",
+          "effect_type": "cost_multiplier",
+          "value": 1.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00129",
+          "effect_type": "delay_add_days",
+          "value": 0.9
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00129",
+          "effect_type": "capacity_multiplier",
+          "value": 0.83
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00129",
+          "effect_type": "cost_multiplier",
+          "value": 1.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00615",
+          "effect_type": "delay_add_days",
+          "value": 1.03
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00615",
+          "effect_type": "capacity_multiplier",
+          "value": 0.84
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00615",
+          "effect_type": "cost_multiplier",
+          "value": 1.59
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00180",
+          "effect_type": "delay_add_days",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00180",
+          "effect_type": "capacity_multiplier",
+          "value": 0.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00180",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00153",
+          "effect_type": "delay_add_days",
+          "value": 0.49
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00153",
+          "effect_type": "capacity_multiplier",
+          "value": 0.69
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00153",
+          "effect_type": "cost_multiplier",
+          "value": 1.22
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00156",
+          "effect_type": "delay_add_days",
+          "value": 1.37
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00156",
+          "effect_type": "capacity_multiplier",
+          "value": 0.73
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00156",
+          "effect_type": "cost_multiplier",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00597",
+          "effect_type": "delay_add_days",
+          "value": 0.85
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00597",
+          "effect_type": "capacity_multiplier",
+          "value": 0.83
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00597",
+          "effect_type": "cost_multiplier",
+          "value": 1.5
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00165",
+          "effect_type": "delay_add_days",
+          "value": 1.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00165",
+          "effect_type": "capacity_multiplier",
+          "value": 0.85
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00165",
+          "effect_type": "cost_multiplier",
+          "value": 1.36
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00151",
+          "effect_type": "delay_add_days",
+          "value": 1.09
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00151",
+          "effect_type": "capacity_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00151",
+          "effect_type": "cost_multiplier",
+          "value": 1.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00582",
+          "effect_type": "delay_add_days",
+          "value": 0.39
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00582",
+          "effect_type": "capacity_multiplier",
+          "value": 0.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00582",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00182",
+          "effect_type": "delay_add_days",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00182",
+          "effect_type": "capacity_multiplier",
+          "value": 0.52
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00182",
+          "effect_type": "cost_multiplier",
+          "value": 1.46
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00186",
+          "effect_type": "delay_add_days",
+          "value": 1.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00186",
+          "effect_type": "capacity_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00186",
+          "effect_type": "cost_multiplier",
+          "value": 1.57
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00178",
+          "effect_type": "delay_add_days",
+          "value": 0.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00178",
+          "effect_type": "capacity_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00178",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00145",
+          "effect_type": "delay_add_days",
+          "value": 0.59
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00145",
+          "effect_type": "capacity_multiplier",
+          "value": 0.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00145",
+          "effect_type": "cost_multiplier",
+          "value": 1.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00169",
+          "effect_type": "delay_add_days",
+          "value": 0.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00169",
+          "effect_type": "capacity_multiplier",
+          "value": 0.78
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00169",
+          "effect_type": "cost_multiplier",
+          "value": 1.24
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00140",
+          "effect_type": "delay_add_days",
+          "value": 0.99
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00140",
+          "effect_type": "capacity_multiplier",
+          "value": 0.57
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00140",
+          "effect_type": "cost_multiplier",
+          "value": 1.37
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00143",
+          "effect_type": "delay_add_days",
+          "value": 1.05
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00143",
+          "effect_type": "capacity_multiplier",
+          "value": 0.71
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00143",
+          "effect_type": "cost_multiplier",
+          "value": 1.6
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00152",
+          "effect_type": "delay_add_days",
+          "value": 1.35
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00152",
+          "effect_type": "capacity_multiplier",
+          "value": 0.77
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00152",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00200",
+          "effect_type": "delay_add_days",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00200",
+          "effect_type": "capacity_multiplier",
+          "value": 0.78
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00200",
+          "effect_type": "cost_multiplier",
+          "value": 1.46
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00142",
+          "effect_type": "delay_add_days",
+          "value": 1.24
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00142",
+          "effect_type": "capacity_multiplier",
+          "value": 0.76
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00142",
+          "effect_type": "cost_multiplier",
+          "value": 1.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00600",
+          "effect_type": "delay_add_days",
+          "value": 0.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00600",
+          "effect_type": "capacity_multiplier",
+          "value": 0.72
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00600",
+          "effect_type": "cost_multiplier",
+          "value": 1.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00631",
+          "effect_type": "delay_add_days",
+          "value": 0.47
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00631",
+          "effect_type": "capacity_multiplier",
+          "value": 0.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00631",
+          "effect_type": "cost_multiplier",
+          "value": 1.27
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00190",
+          "effect_type": "delay_add_days",
+          "value": 0.39
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00190",
+          "effect_type": "capacity_multiplier",
+          "value": 0.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00190",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00610",
+          "effect_type": "delay_add_days",
+          "value": 0.99
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00610",
+          "effect_type": "capacity_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00610",
+          "effect_type": "cost_multiplier",
+          "value": 1.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00608",
+          "effect_type": "delay_add_days",
+          "value": 0.87
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00608",
+          "effect_type": "capacity_multiplier",
+          "value": 0.56
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00608",
+          "effect_type": "cost_multiplier",
+          "value": 1.44
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00175",
+          "effect_type": "delay_add_days",
+          "value": 0.94
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00175",
+          "effect_type": "capacity_multiplier",
+          "value": 0.56
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00175",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00612",
+          "effect_type": "delay_add_days",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00612",
+          "effect_type": "capacity_multiplier",
+          "value": 0.72
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00612",
+          "effect_type": "cost_multiplier",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00189",
+          "effect_type": "delay_add_days",
+          "value": 1.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00189",
+          "effect_type": "capacity_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00189",
+          "effect_type": "cost_multiplier",
+          "value": 1.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00123",
+          "effect_type": "delay_add_days",
+          "value": 0.63
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00123",
+          "effect_type": "capacity_multiplier",
+          "value": 0.52
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00123",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00591",
+          "effect_type": "delay_add_days",
+          "value": 0.89
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00591",
+          "effect_type": "capacity_multiplier",
+          "value": 0.64
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00591",
+          "effect_type": "cost_multiplier",
+          "value": 1.47
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00602",
+          "effect_type": "delay_add_days",
+          "value": 1.04
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00602",
+          "effect_type": "capacity_multiplier",
+          "value": 0.56
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00602",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00637",
+          "effect_type": "delay_add_days",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00637",
+          "effect_type": "capacity_multiplier",
+          "value": 0.72
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00637",
+          "effect_type": "cost_multiplier",
+          "value": 1.52
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00629",
+          "effect_type": "delay_add_days",
+          "value": 1.01
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00629",
+          "effect_type": "capacity_multiplier",
+          "value": 0.63
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00629",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00588",
+          "effect_type": "delay_add_days",
+          "value": 1.01
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00588",
+          "effect_type": "capacity_multiplier",
+          "value": 0.51
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00588",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00598",
+          "effect_type": "delay_add_days",
+          "value": 1.02
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00598",
+          "effect_type": "capacity_multiplier",
+          "value": 0.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00598",
+          "effect_type": "cost_multiplier",
+          "value": 1.57
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00590",
+          "effect_type": "delay_add_days",
+          "value": 0.62
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00590",
+          "effect_type": "capacity_multiplier",
+          "value": 0.7
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00590",
+          "effect_type": "cost_multiplier",
+          "value": 1.47
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00622",
+          "effect_type": "delay_add_days",
+          "value": 0.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00622",
+          "effect_type": "capacity_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00622",
+          "effect_type": "cost_multiplier",
+          "value": 1.29
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00134",
+          "effect_type": "delay_add_days",
+          "value": 0.35
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00134",
+          "effect_type": "capacity_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00134",
+          "effect_type": "cost_multiplier",
+          "value": 1.44
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00624",
+          "effect_type": "delay_add_days",
+          "value": 0.95
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00624",
+          "effect_type": "capacity_multiplier",
+          "value": 0.82
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00624",
+          "effect_type": "cost_multiplier",
+          "value": 1.11
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00150",
+          "effect_type": "delay_add_days",
+          "value": 0.42
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00150",
+          "effect_type": "capacity_multiplier",
+          "value": 0.82
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00150",
+          "effect_type": "cost_multiplier",
+          "value": 1.27
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00137",
+          "effect_type": "delay_add_days",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00137",
+          "effect_type": "capacity_multiplier",
+          "value": 0.68
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00137",
+          "effect_type": "cost_multiplier",
+          "value": 1.28
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00191",
+          "effect_type": "delay_add_days",
+          "value": 0.31
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00191",
+          "effect_type": "capacity_multiplier",
+          "value": 0.67
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00191",
+          "effect_type": "cost_multiplier",
+          "value": 1.58
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00162",
+          "effect_type": "delay_add_days",
+          "value": 0.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00162",
+          "effect_type": "capacity_multiplier",
+          "value": 0.66
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00162",
+          "effect_type": "cost_multiplier",
+          "value": 1.59
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00166",
+          "effect_type": "delay_add_days",
+          "value": 0.52
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00166",
+          "effect_type": "capacity_multiplier",
+          "value": 0.56
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00166",
+          "effect_type": "cost_multiplier",
+          "value": 1.24
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00168",
+          "effect_type": "delay_add_days",
+          "value": 0.8
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00168",
+          "effect_type": "capacity_multiplier",
+          "value": 0.71
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00168",
+          "effect_type": "cost_multiplier",
+          "value": 1.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00607",
+          "effect_type": "delay_add_days",
+          "value": 1.18
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00607",
+          "effect_type": "capacity_multiplier",
+          "value": 0.83
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00607",
+          "effect_type": "cost_multiplier",
+          "value": 1.26
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00170",
+          "effect_type": "delay_add_days",
+          "value": 0.53
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00170",
+          "effect_type": "capacity_multiplier",
+          "value": 0.74
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00170",
+          "effect_type": "cost_multiplier",
+          "value": 1.46
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00623",
+          "effect_type": "delay_add_days",
+          "value": 0.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00623",
+          "effect_type": "capacity_multiplier",
+          "value": 0.61
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00623",
+          "effect_type": "cost_multiplier",
+          "value": 1.3
+        }
+      ],
+      "tags": [],
+      "notes": "Predefined mock scenario. Users can author new scenarios in Tab 3."
+    },
+    {
+      "id": "SCN_TARIFF_001",
+      "name": "Tariff Shock (USA)",
+      "description": "Increased landed cost on lanes connected to USA.",
+      "created_by": "system",
+      "created_at": "2026-02-13T10:13:53Z",
+      "effects": [
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00179",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00311",
+          "effect_type": "cost_multiplier",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00551",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00513",
+          "effect_type": "cost_multiplier",
+          "value": 1.07
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00192",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00277",
+          "effect_type": "cost_multiplier",
+          "value": 1.32
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00389",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00573",
+          "effect_type": "cost_multiplier",
+          "value": 1.18
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00310",
+          "effect_type": "cost_multiplier",
+          "value": 1.26
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00205",
+          "effect_type": "cost_multiplier",
+          "value": 1.05
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00150",
+          "effect_type": "cost_multiplier",
+          "value": 1.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00233",
+          "effect_type": "cost_multiplier",
+          "value": 1.17
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00644",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00048",
+          "effect_type": "cost_multiplier",
+          "value": 1.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00117",
+          "effect_type": "cost_multiplier",
+          "value": 1.11
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00079",
+          "effect_type": "cost_multiplier",
+          "value": 1.27
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00033",
+          "effect_type": "cost_multiplier",
+          "value": 1.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00589",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00165",
+          "effect_type": "cost_multiplier",
+          "value": 1.32
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00008",
+          "effect_type": "cost_multiplier",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00604",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00603",
+          "effect_type": "cost_multiplier",
+          "value": 1.19
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00591",
+          "effect_type": "cost_multiplier",
+          "value": 1.07
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00481",
+          "effect_type": "cost_multiplier",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00602",
+          "effect_type": "cost_multiplier",
+          "value": 1.21
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00618",
+          "effect_type": "cost_multiplier",
+          "value": 1.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00234",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00625",
+          "effect_type": "cost_multiplier",
+          "value": 1.06
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00046",
+          "effect_type": "cost_multiplier",
+          "value": 1.08
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00167",
+          "effect_type": "cost_multiplier",
+          "value": 1.31
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00134",
+          "effect_type": "cost_multiplier",
+          "value": 1.06
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00512",
+          "effect_type": "cost_multiplier",
+          "value": 1.26
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00133",
+          "effect_type": "cost_multiplier",
+          "value": 1.07
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00149",
+          "effect_type": "cost_multiplier",
+          "value": 1.11
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00110",
+          "effect_type": "cost_multiplier",
+          "value": 1.15
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00207",
+          "effect_type": "cost_multiplier",
+          "value": 1.31
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00208",
+          "effect_type": "cost_multiplier",
+          "value": 1.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00090",
+          "effect_type": "cost_multiplier",
+          "value": 1.27
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00002",
+          "effect_type": "cost_multiplier",
+          "value": 1.06
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00556",
+          "effect_type": "cost_multiplier",
+          "value": 1.09
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00632",
+          "effect_type": "cost_multiplier",
+          "value": 1.35
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00514",
+          "effect_type": "cost_multiplier",
+          "value": 1.35
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00109",
+          "effect_type": "cost_multiplier",
+          "value": 1.27
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00119",
+          "effect_type": "cost_multiplier",
+          "value": 1.13
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00278",
+          "effect_type": "cost_multiplier",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00624",
+          "effect_type": "cost_multiplier",
+          "value": 1.12
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00136",
+          "effect_type": "cost_multiplier",
+          "value": 1.22
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00309",
+          "effect_type": "cost_multiplier",
+          "value": 1.06
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00390",
+          "effect_type": "cost_multiplier",
+          "value": 1.25
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00185",
+          "effect_type": "cost_multiplier",
+          "value": 1.33
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00312",
+          "effect_type": "cost_multiplier",
+          "value": 1.29
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00097",
+          "effect_type": "cost_multiplier",
+          "value": 1.09
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00047",
+          "effect_type": "cost_multiplier",
+          "value": 1.22
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00089",
+          "effect_type": "cost_multiplier",
+          "value": 1.28
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00009",
+          "effect_type": "cost_multiplier",
+          "value": 1.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00567",
+          "effect_type": "cost_multiplier",
+          "value": 1.11
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00172",
+          "effect_type": "cost_multiplier",
+          "value": 1.21
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00568",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00236",
+          "effect_type": "cost_multiplier",
+          "value": 1.28
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00620",
+          "effect_type": "cost_multiplier",
+          "value": 1.34
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00579",
+          "effect_type": "cost_multiplier",
+          "value": 1.17
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00007",
+          "effect_type": "cost_multiplier",
+          "value": 1.32
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00557",
+          "effect_type": "cost_multiplier",
+          "value": 1.17
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00171",
+          "effect_type": "cost_multiplier",
+          "value": 1.2
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00476",
+          "effect_type": "cost_multiplier",
+          "value": 1.1
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00151",
+          "effect_type": "cost_multiplier",
+          "value": 1.07
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00098",
+          "effect_type": "cost_multiplier",
+          "value": 1.29
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00235",
+          "effect_type": "cost_multiplier",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00637",
+          "effect_type": "cost_multiplier",
+          "value": 1.3
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00482",
+          "effect_type": "cost_multiplier",
+          "value": 1.09
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00206",
+          "effect_type": "cost_multiplier",
+          "value": 1.16
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00588",
+          "effect_type": "cost_multiplier",
+          "value": 1.23
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00123",
+          "effect_type": "cost_multiplier",
+          "value": 1.18
+        },
+        {
+          "target_type": "segment",
+          "target_id": "SEG_00575",
+          "effect_type": "cost_multiplier",
+          "value": 1.24
+        }
+      ],
+      "tags": [],
+      "notes": "Predefined mock scenario. Users can author new scenarios in Tab 3."
+    }
+  ],
+  "scenario_authoring_schema": {
+    "effect_types": [
+      {
+        "id": "delay_add_days",
+        "value_type": "number",
+        "description": "Add fixed delay in days"
+      },
+      {
+        "id": "delay_multiplier",
+        "value_type": "number",
+        "description": "Multiply baseline avg_transit_days and delay by a factor"
+      },
+      {
+        "id": "capacity_multiplier",
+        "value_type": "number",
+        "description": "Multiply baseline volume/capacity by a factor"
+      },
+      {
+        "id": "volume_multiplier",
+        "value_type": "number",
+        "description": "Multiply baseline volume by a factor"
+      },
+      {
+        "id": "cost_multiplier",
+        "value_type": "number",
+        "description": "Multiply baseline cost by a factor"
+      },
+      {
+        "id": "closed",
+        "value_type": "boolean",
+        "description": "Mark segment as closed / unavailable"
+      }
+    ],
+    "recommended_fields": [
+      "name",
+      "description",
+      "start_date",
+      "end_date",
+      "effects[]"
+    ]
+  }
+}

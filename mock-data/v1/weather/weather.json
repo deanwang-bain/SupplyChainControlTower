@@ -1,0 +1,1031 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "alerts": [
+    {
+      "id": "WTH_0001",
+      "event_type": "wildfire",
+      "severity": 4,
+      "start_time": "2026-02-13T01:29:08Z",
+      "end_time": "2026-02-14T08:15:52Z",
+      "center": {
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "city": "Hong Kong",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.02360543143341,
+              20.31678538411323
+            ],
+            [
+              118.31519456856658,
+              20.31678538411323
+            ],
+            [
+              118.31519456856658,
+              24.321814615886765
+            ],
+            [
+              110.02360543143341,
+              24.321814615886765
+            ],
+            [
+              110.02360543143341,
+              20.31678538411323
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock wildfire alert near Hong Kong with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SHE",
+        "PRT_HON",
+        "PRT_KAO",
+        "AIR_SHE",
+        "AIR_HON",
+        "WH_SHE_01",
+        "WH_HON_05",
+        "WH_HON_06",
+        "WH_HON_14",
+        "WH_KAO_38",
+        "FCT_HON_07",
+        "FCT_KAO_15",
+        "FCT_HON_19"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0002",
+      "event_type": "wildfire",
+      "severity": 5,
+      "start_time": "2026-02-13T06:07:12Z",
+      "end_time": "2026-02-15T01:24:30Z",
+      "center": {
+        "lat": -23.5558,
+        "lon": -46.6396,
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.314857362242314,
+              -28.315382958503633
+            ],
+            [
+              -42.96434263775769,
+              -28.315382958503633
+            ],
+            [
+              -42.96434263775769,
+              -18.79621704149637
+            ],
+            [
+              -50.314857362242314,
+              -18.79621704149637
+            ],
+            [
+              -50.314857362242314,
+              -28.315382958503633
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock wildfire alert near Sao Paulo with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SAN",
+        "AIR_SAO",
+        "WH_SAN_39"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0003",
+      "event_type": "fog",
+      "severity": 7,
+      "start_time": "2026-02-13T02:54:52Z",
+      "end_time": "2026-02-13T23:48:31Z",
+      "center": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "city": "New York",
+        "country": "USA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.50977216859515,
+              35.44527151012187
+            ],
+            [
+              -68.50222783140485,
+              35.44527151012187
+            ],
+            [
+              -68.50222783140485,
+              45.98032848987813
+            ],
+            [
+              -79.50977216859515,
+              45.98032848987813
+            ],
+            [
+              -79.50977216859515,
+              35.44527151012187
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock fog alert near New York with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_NEW",
+        "AIR_NEW"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0004",
+      "event_type": "heatwave",
+      "severity": 6,
+      "start_time": "2026-02-13T09:57:06Z",
+      "end_time": "2026-02-16T08:22:52Z",
+      "center": {
+        "lat": 25.2048,
+        "lon": 55.2708,
+        "city": "Dubai",
+        "country": "UAE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.61653548330078,
+              20.217186279685553
+            ],
+            [
+              58.92506451669922,
+              20.217186279685553
+            ],
+            [
+              58.92506451669922,
+              30.192413720314445
+            ],
+            [
+              51.61653548330078,
+              30.192413720314445
+            ],
+            [
+              51.61653548330078,
+              20.217186279685553
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock heatwave alert near Dubai with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_DUB",
+        "PRT_DOH",
+        "AIR_DUB",
+        "AIR_DOH",
+        "WH_DUB_17",
+        "WH_DUB_18",
+        "WH_DOH_34"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0005",
+      "event_type": "snow",
+      "severity": 6,
+      "start_time": "2026-02-12T23:20:37Z",
+      "end_time": "2026-02-15T14:46:28Z",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503,
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.94938301031053,
+              31.554974019205087
+            ],
+            [
+              142.35121698968945,
+              31.554974019205087
+            ],
+            [
+              142.35121698968945,
+              39.79742598079491
+            ],
+            [
+              136.94938301031053,
+              39.79742598079491
+            ],
+            [
+              136.94938301031053,
+              31.554974019205087
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock snow alert near Tokyo with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_TOK",
+        "AIR_TOK",
+        "FCT_TOK_03",
+        "FCT_TOK_05",
+        "FCT_TOK_09"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0006",
+      "event_type": "typhoon",
+      "severity": 6,
+      "start_time": "2026-02-12T10:51:03Z",
+      "end_time": "2026-02-14T02:43:59Z",
+      "center": {
+        "lat": 53.5511,
+        "lon": 9.9937,
+        "city": "Hamburg",
+        "country": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.399215285969927,
+              48.10543097455958
+            ],
+            [
+              12.588184714030074,
+              48.10543097455958
+            ],
+            [
+              12.588184714030074,
+              58.996769025440415
+            ],
+            [
+              7.399215285969927,
+              58.996769025440415
+            ],
+            [
+              7.399215285969927,
+              48.10543097455958
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock typhoon alert near Hamburg with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_ROT",
+        "PRT_HAM",
+        "PRT_ANT",
+        "PRT_LON",
+        "PRT_GDA",
+        "AIR_ROT",
+        "AIR_HAM",
+        "AIR_LON",
+        "WH_GDA_08",
+        "WH_LON_11",
+        "WH_LON_12",
+        "WH_ANT_15",
+        "WH_LON_16",
+        "WH_ANT_19",
+        "WH_ANT_26",
+        "WH_ANT_29",
+        "FCT_ANT_01",
+        "FCT_ROT_02",
+        "FCT_ANT_04",
+        "FCT_HAM_10",
+        "FCT_ANT_16",
+        "FCT_LON_17",
+        "FCT_ANT_18"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0007",
+      "event_type": "heatwave",
+      "severity": 2,
+      "start_time": "2026-02-13T00:48:13Z",
+      "end_time": "2026-02-16T11:08:01Z",
+      "center": {
+        "lat": -26.2041,
+        "lon": 28.0473,
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.965456769732757,
+              -29.03309240044443
+            ],
+            [
+              32.129143230267246,
+              -29.03309240044443
+            ],
+            [
+              32.129143230267246,
+              -23.37510759955557
+            ],
+            [
+              23.965456769732757,
+              -23.37510759955557
+            ],
+            [
+              23.965456769732757,
+              -29.03309240044443
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock heatwave alert near Johannesburg with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_DUR",
+        "AIR_JOH",
+        "AIR_DUR",
+        "WH_JOH_33",
+        "WH_JOH_36"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0008",
+      "event_type": "storm",
+      "severity": 5,
+      "start_time": "2026-02-13T00:40:19Z",
+      "end_time": "2026-02-14T15:55:42Z",
+      "center": {
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "city": "Hong Kong",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              111.14179811852688,
+              19.79991264347383
+            ],
+            [
+              117.19700188147311,
+              19.79991264347383
+            ],
+            [
+              117.19700188147311,
+              24.838687356526165
+            ],
+            [
+              111.14179811852688,
+              24.838687356526165
+            ],
+            [
+              111.14179811852688,
+              19.79991264347383
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock storm alert near Hong Kong with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SHE",
+        "PRT_HON",
+        "PRT_KAO",
+        "AIR_SHE",
+        "AIR_HON",
+        "WH_SHE_01",
+        "WH_HON_05",
+        "WH_HON_06",
+        "WH_HON_14",
+        "WH_KAO_38",
+        "FCT_HON_07",
+        "FCT_KAO_15",
+        "FCT_HON_19"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0009",
+      "event_type": "storm",
+      "severity": 9,
+      "start_time": "2026-02-12T13:32:16Z",
+      "end_time": "2026-02-13T15:57:01Z",
+      "center": {
+        "lat": -23.9618,
+        "lon": -46.3322,
+        "city": "Santos",
+        "country": "Brazil"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.08922920403429,
+              -27.681131196642276
+            ],
+            [
+              -42.57517079596571,
+              -27.681131196642276
+            ],
+            [
+              -42.57517079596571,
+              -20.242468803357724
+            ],
+            [
+              -50.08922920403429,
+              -20.242468803357724
+            ],
+            [
+              -50.08922920403429,
+              -27.681131196642276
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock storm alert near Santos with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SAN",
+        "AIR_SAO",
+        "WH_SAN_39"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0010",
+      "event_type": "heatwave",
+      "severity": 2,
+      "start_time": "2026-02-12T02:40:54Z",
+      "end_time": "2026-02-14T00:34:31Z",
+      "center": {
+        "lat": -37.8136,
+        "lon": 144.9631,
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.66495576521157,
+              -43.2504889952096
+            ],
+            [
+              150.26124423478842,
+              -43.2504889952096
+            ],
+            [
+              150.26124423478842,
+              -32.3767110047904
+            ],
+            [
+              139.66495576521157,
+              -32.3767110047904
+            ],
+            [
+              139.66495576521157,
+              -43.2504889952096
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock heatwave alert near Melbourne with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SYD",
+        "PRT_MEL",
+        "AIR_SYD",
+        "AIR_MEL",
+        "WH_SYD_03",
+        "WH_SYD_22"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0011",
+      "event_type": "snow",
+      "severity": 7,
+      "start_time": "2026-02-12T18:21:41Z",
+      "end_time": "2026-02-13T21:12:50Z",
+      "center": {
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "city": "Shanghai",
+        "country": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.61281211727442,
+              28.470973905542248
+            ],
+            [
+              125.33458788272557,
+              28.470973905542248
+            ],
+            [
+              125.33458788272557,
+              33.98982609445775
+            ],
+            [
+              117.61281211727442,
+              33.98982609445775
+            ],
+            [
+              117.61281211727442,
+              28.470973905542248
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock snow alert near Shanghai with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SHA",
+        "AIR_SHA",
+        "WH_SHA_07",
+        "WH_SHA_23",
+        "FCT_SHA_11",
+        "FCT_SHA_13"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0012",
+      "event_type": "storm",
+      "severity": 4,
+      "start_time": "2026-02-11T10:21:59Z",
+      "end_time": "2026-02-14T11:22:59Z",
+      "center": {
+        "lat": 21.4858,
+        "lon": 39.1925,
+        "city": "Jeddah",
+        "country": "Saudi Arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.69902525967661,
+              17.10591454380354
+            ],
+            [
+              41.685974740323395,
+              17.10591454380354
+            ],
+            [
+              41.685974740323395,
+              25.865685456196463
+            ],
+            [
+              36.69902525967661,
+              25.865685456196463
+            ],
+            [
+              36.69902525967661,
+              17.10591454380354
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock storm alert near Jeddah with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_JED",
+        "AIR_JED",
+        "WH_JED_21",
+        "WH_JED_30"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0013",
+      "event_type": "wildfire",
+      "severity": 8,
+      "start_time": "2026-02-12T07:02:17Z",
+      "end_time": "2026-02-14T17:37:33Z",
+      "center": {
+        "lat": 22.6273,
+        "lon": 120.3014,
+        "city": "Kaohsiung",
+        "country": "Taiwan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.09910824759415,
+              16.96381696090876
+            ],
+            [
+              123.50369175240586,
+              16.96381696090876
+            ],
+            [
+              123.50369175240586,
+              28.290783039091245
+            ],
+            [
+              117.09910824759415,
+              28.290783039091245
+            ],
+            [
+              117.09910824759415,
+              16.96381696090876
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock wildfire alert near Kaohsiung with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_SHE",
+        "PRT_HON",
+        "PRT_KAO",
+        "AIR_SHE",
+        "AIR_HON",
+        "WH_SHE_01",
+        "WH_HON_05",
+        "WH_HON_06",
+        "WH_HON_14",
+        "WH_KAO_38",
+        "FCT_HON_07",
+        "FCT_KAO_15",
+        "FCT_HON_19"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0014",
+      "event_type": "fog",
+      "severity": 4,
+      "start_time": "2026-02-12T02:07:41Z",
+      "end_time": "2026-02-16T00:03:12Z",
+      "center": {
+        "lat": 6.9271,
+        "lon": 79.8612,
+        "city": "Colombo",
+        "country": "Sri Lanka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.64192464772736,
+              4.254878959127264
+            ],
+            [
+              84.08047535227263,
+              4.254878959127264
+            ],
+            [
+              84.08047535227263,
+              9.599321040872736
+            ],
+            [
+              75.64192464772736,
+              9.599321040872736
+            ],
+            [
+              75.64192464772736,
+              4.254878959127264
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock fog alert near Colombo with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_CHE",
+        "PRT_COL",
+        "AIR_CHE",
+        "AIR_COL",
+        "WH_COL_10",
+        "WH_CHE_25",
+        "WH_COL_32"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0015",
+      "event_type": "flood",
+      "severity": 6,
+      "start_time": "2026-02-13T07:57:29Z",
+      "end_time": "2026-02-15T13:23:26Z",
+      "center": {
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -126.92378423950026,
+              44.21738551929197
+            ],
+            [
+              -119.31761576049973,
+              44.21738551929197
+            ],
+            [
+              -119.31761576049973,
+              54.348014480708024
+            ],
+            [
+              -126.92378423950026,
+              54.348014480708024
+            ],
+            [
+              -126.92378423950026,
+              44.21738551929197
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock flood alert near Vancouver with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_VAN",
+        "AIR_VAN",
+        "WH_VAN_40",
+        "FCT_VAN_20"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0016",
+      "event_type": "storm",
+      "severity": 8,
+      "start_time": "2026-02-12T19:20:27Z",
+      "end_time": "2026-02-14T19:34:45Z",
+      "center": {
+        "lat": 13.0827,
+        "lon": 80.2707,
+        "city": "Chennai",
+        "country": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.38725001228035,
+              10.119536130402759
+            ],
+            [
+              84.15414998771966,
+              10.119536130402759
+            ],
+            [
+              84.15414998771966,
+              16.04586386959724
+            ],
+            [
+              76.38725001228035,
+              16.04586386959724
+            ],
+            [
+              76.38725001228035,
+              10.119536130402759
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock storm alert near Chennai with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_CHE",
+        "PRT_COL",
+        "AIR_CHE",
+        "AIR_COL",
+        "WH_COL_10",
+        "WH_CHE_25",
+        "WH_COL_32"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0017",
+      "event_type": "snow",
+      "severity": 3,
+      "start_time": "2026-02-12T06:39:26Z",
+      "end_time": "2026-02-12T20:13:02Z",
+      "center": {
+        "lat": 6.9271,
+        "lon": 79.8612,
+        "city": "Colombo",
+        "country": "Sri Lanka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.75777888912425,
+              4.912977398902412
+            ],
+            [
+              84.96462111087574,
+              4.912977398902412
+            ],
+            [
+              84.96462111087574,
+              8.94122260109759
+            ],
+            [
+              74.75777888912425,
+              8.94122260109759
+            ],
+            [
+              74.75777888912425,
+              4.912977398902412
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock snow alert near Colombo with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_CHE",
+        "PRT_COL",
+        "AIR_CHE",
+        "AIR_COL",
+        "WH_COL_10",
+        "WH_CHE_25",
+        "WH_COL_32"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0018",
+      "event_type": "fog",
+      "severity": 5,
+      "start_time": "2026-02-13T06:32:45Z",
+      "end_time": "2026-02-15T20:10:49Z",
+      "center": {
+        "lat": 25.2048,
+        "lon": 55.2708,
+        "city": "Dubai",
+        "country": "UAE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.21746231436811,
+              20.77112405954195
+            ],
+            [
+              58.32413768563189,
+              20.77112405954195
+            ],
+            [
+              58.32413768563189,
+              29.638475940458047
+            ],
+            [
+              52.21746231436811,
+              29.638475940458047
+            ],
+            [
+              52.21746231436811,
+              20.77112405954195
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock fog alert near Dubai with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_DUB",
+        "PRT_DOH",
+        "AIR_DUB",
+        "AIR_DOH",
+        "WH_DUB_17",
+        "WH_DUB_18",
+        "WH_DOH_34"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0019",
+      "event_type": "typhoon",
+      "severity": 5,
+      "start_time": "2026-02-11T23:28:06Z",
+      "end_time": "2026-02-12T15:12:58Z",
+      "center": {
+        "lat": 6.9271,
+        "lon": 79.8612,
+        "city": "Colombo",
+        "country": "Sri Lanka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.25024519897052,
+              1.724016672295515
+            ],
+            [
+              82.47215480102948,
+              1.724016672295515
+            ],
+            [
+              82.47215480102948,
+              12.130183327704486
+            ],
+            [
+              77.25024519897052,
+              12.130183327704486
+            ],
+            [
+              77.25024519897052,
+              1.724016672295515
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock typhoon alert near Colombo with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_CHE",
+        "PRT_COL",
+        "AIR_CHE",
+        "AIR_COL",
+        "WH_COL_10",
+        "WH_CHE_25",
+        "WH_COL_32"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    },
+    {
+      "id": "WTH_0020",
+      "event_type": "typhoon",
+      "severity": 7,
+      "start_time": "2026-02-12T19:42:42Z",
+      "end_time": "2026-02-16T19:17:40Z",
+      "center": {
+        "lat": 21.4858,
+        "lon": 39.1925,
+        "city": "Jeddah",
+        "country": "Saudi Arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.81287080309837,
+              16.997310974620696
+            ],
+            [
+              44.572129196901635,
+              16.997310974620696
+            ],
+            [
+              44.572129196901635,
+              25.974289025379306
+            ],
+            [
+              33.81287080309837,
+              25.974289025379306
+            ],
+            [
+              33.81287080309837,
+              16.997310974620696
+            ]
+          ]
+        ]
+      },
+      "summary": "Mock typhoon alert near Jeddah with expected operational impact on nearby lanes and facilities.",
+      "affected_entities": [
+        "PRT_JED",
+        "AIR_JED",
+        "WH_JED_21",
+        "WH_JED_30"
+      ],
+      "last_updated": "2026-02-13T10:13:53Z"
+    }
+  ]
+}

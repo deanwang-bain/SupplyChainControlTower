@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-02-13T10:13:53Z",
+  "default_quick_topics": {
+    "tab1": [
+      "Where is shipment SHP_000123 and when will it arrive?",
+      "Which ports are most congested this week?",
+      "List the top 10 shipments by risk and why",
+      "Show flights delayed in the last hour (mock)"
+    ],
+    "tab2": [
+      "Summarize the supply chain tree for this item",
+      "Which segment is the bottleneck by avg days?",
+      "Which segment has the highest variance and how can we reduce it?",
+      "Suggest alternative suppliers or routes to reduce cost"
+    ],
+    "tab3": [
+      "What happens if we apply the selected scenario?",
+      "Which segments get worse and by how much?",
+      "Which shipments are impacted and what mitigations are available?",
+      "Propose a reroute plan (mock action)"
+    ]
+  },
+  "role_overrides": {
+    "executive": {
+      "tab1": [
+        "Summarize global risk hotspots today",
+        "What is the estimated cost impact of delays?"
+      ],
+      "tab3": [
+        "Compare baseline vs scenario KPIs and summarize impact"
+      ]
+    },
+    "planner": {
+      "tab2": [
+        "Where should we add buffer stock?",
+        "What are stable vs unstable lanes?"
+      ]
+    },
+    "dispatcher": {
+      "tab1": [
+        "Which shipments need intervention now?",
+        "Which carriers are delayed?"
+      ]
+    }
+  }
+}

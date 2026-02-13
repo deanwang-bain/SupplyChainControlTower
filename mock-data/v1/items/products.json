@@ -1,0 +1,182 @@
+[
+  {
+    "id": "PRD_SMARTPHONE_01",
+    "type": "product",
+    "name": "Smartphone Model Pro3",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Smartphone.",
+    "active": true
+  },
+  {
+    "id": "PRD_LAPTOP_02",
+    "type": "product",
+    "name": "Laptop Model X1",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Laptop.",
+    "active": true
+  },
+  {
+    "id": "PRD_TABLET_03",
+    "type": "product",
+    "name": "Tablet Model X6",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Tablet.",
+    "active": true
+  },
+  {
+    "id": "PRD_E_BIKE_04",
+    "type": "product",
+    "name": "E-bike Model Max4",
+    "category": "Automotive",
+    "unit": "unit",
+    "description": "Synthetic product record for E-bike.",
+    "active": true
+  },
+  {
+    "id": "PRD_ELECTRIC_SCOOTER_05",
+    "type": "product",
+    "name": "Electric Scooter Model X3",
+    "category": "Automotive",
+    "unit": "unit",
+    "description": "Synthetic product record for Electric Scooter.",
+    "active": true
+  },
+  {
+    "id": "PRD_REFRIGERATOR_06",
+    "type": "product",
+    "name": "Refrigerator Model Max7",
+    "category": "Appliances",
+    "unit": "unit",
+    "description": "Synthetic product record for Refrigerator.",
+    "active": true
+  },
+  {
+    "id": "PRD_WASHING_MACHINE_07",
+    "type": "product",
+    "name": "Washing Machine Model Pro2",
+    "category": "Appliances",
+    "unit": "unit",
+    "description": "Synthetic product record for Washing Machine.",
+    "active": true
+  },
+  {
+    "id": "PRD_MEDICAL_MONITOR_08",
+    "type": "product",
+    "name": "Medical Monitor Model A2",
+    "category": "Medical",
+    "unit": "unit",
+    "description": "Synthetic product record for Medical Monitor.",
+    "active": true
+  },
+  {
+    "id": "PRD_INDUSTRIAL_SENSOR_09",
+    "type": "product",
+    "name": "Industrial Sensor Model X9",
+    "category": "Industrial",
+    "unit": "unit",
+    "description": "Synthetic product record for Industrial Sensor.",
+    "active": true
+  },
+  {
+    "id": "PRD_ROUTER_10",
+    "type": "product",
+    "name": "Router Model B8",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Router.",
+    "active": true
+  },
+  {
+    "id": "PRD_BATTERY_PACK_11",
+    "type": "product",
+    "name": "Battery Pack Model X4",
+    "category": "Automotive",
+    "unit": "unit",
+    "description": "Synthetic product record for Battery Pack.",
+    "active": true
+  },
+  {
+    "id": "PRD_AIR_PURIFIER_12",
+    "type": "product",
+    "name": "Air Purifier Model Pro5",
+    "category": "Appliances",
+    "unit": "unit",
+    "description": "Synthetic product record for Air Purifier.",
+    "active": true
+  },
+  {
+    "id": "PRD_POWER_TOOL_13",
+    "type": "product",
+    "name": "Power Tool Model X9",
+    "category": "Industrial",
+    "unit": "unit",
+    "description": "Synthetic product record for Power Tool.",
+    "active": true
+  },
+  {
+    "id": "PRD_LED_TV_14",
+    "type": "product",
+    "name": "LED TV Model X4",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for LED TV.",
+    "active": true
+  },
+  {
+    "id": "PRD_EV_CHARGER_15",
+    "type": "product",
+    "name": "EV Charger Model Max5",
+    "category": "Automotive",
+    "unit": "unit",
+    "description": "Synthetic product record for EV Charger.",
+    "active": true
+  },
+  {
+    "id": "PRD_COFFEE_MACHINE_16",
+    "type": "product",
+    "name": "Coffee Machine Model X9",
+    "category": "Appliances",
+    "unit": "unit",
+    "description": "Synthetic product record for Coffee Machine.",
+    "active": true
+  },
+  {
+    "id": "PRD_SMART_WATCH_17",
+    "type": "product",
+    "name": "Smart Watch Model Max2",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Smart Watch.",
+    "active": true
+  },
+  {
+    "id": "PRD_DRONE_18",
+    "type": "product",
+    "name": "Drone Model A6",
+    "category": "Consumer Electronics",
+    "unit": "unit",
+    "description": "Synthetic product record for Drone.",
+    "active": true
+  },
+  {
+    "id": "PRD_SOLAR_INVERTER_19",
+    "type": "product",
+    "name": "Solar Inverter Model Pro8",
+    "category": "Industrial",
+    "unit": "unit",
+    "description": "Synthetic product record for Solar Inverter.",
+    "active": true
+  },
+  {
+    "id": "PRD_HOME_THERMOSTAT_20",
+    "type": "product",
+    "name": "Home Thermostat Model X2",
+    "category": "Retail",
+    "unit": "unit",
+    "description": "Synthetic product record for Home Thermostat.",
+    "active": true
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "MAT_LITHIUM_CELLS_01",
+    "type": "material",
+    "name": "Lithium Cells",
+    "category": "Electronics",
+    "unit": "cell",
+    "description": "Synthetic material record for Lithium Cells.",
+    "active": true
+  },
+  {
+    "id": "MAT_PCB_02",
+    "type": "material",
+    "name": "PCB",
+    "category": "Electronics",
+    "unit": "board",
+    "description": "Synthetic material record for PCB.",
+    "active": true
+  },
+  {
+    "id": "MAT_DISPLAY_PANEL_03",
+    "type": "material",
+    "name": "Display Panel",
+    "category": "Chemicals",
+    "unit": "panel",
+    "description": "Synthetic material record for Display Panel.",
+    "active": true
+  },
+  {
+    "id": "MAT_ALUMINUM_SHEET_04",
+    "type": "material",
+    "name": "Aluminum Sheet",
+    "category": "Electronics",
+    "unit": "kg",
+    "description": "Synthetic material record for Aluminum Sheet.",
+    "active": true
+  },
+  {
+    "id": "MAT_STEEL_COIL_05",
+    "type": "material",
+    "name": "Steel Coil",
+    "category": "Plastics",
+    "unit": "kg",
+    "description": "Synthetic material record for Steel Coil.",
+    "active": true
+  },
+  {
+    "id": "MAT_COMPRESSOR_06",
+    "type": "material",
+    "name": "Compressor",
+    "category": "Packaging",
+    "unit": "unit",
+    "description": "Synthetic material record for Compressor.",
+    "active": true
+  },
+  {
+    "id": "MAT_ELECTRIC_MOTOR_07",
+    "type": "material",
+    "name": "Electric Motor",
+    "category": "Chemicals",
+    "unit": "unit",
+    "description": "Synthetic material record for Electric Motor.",
+    "active": true
+  },
+  {
+    "id": "MAT_TIRE_08",
+    "type": "material",
+    "name": "Tire",
+    "category": "Electronics",
+    "unit": "unit",
+    "description": "Synthetic material record for Tire.",
+    "active": true
+  },
+  {
+    "id": "MAT_ABS_PLASTIC_09",
+    "type": "material",
+    "name": "ABS Plastic",
+    "category": "Metals",
+    "unit": "kg",
+    "description": "Synthetic material record for ABS Plastic.",
+    "active": true
+  },
+  {
+    "id": "MAT_PACKAGING_10",
+    "type": "material",
+    "name": "Packaging",
+    "category": "Plastics",
+    "unit": "kg",
+    "description": "Synthetic material record for Packaging.",
+    "active": true
+  },
+  {
+    "id": "MAT_COPPER_WIRE_11",
+    "type": "material",
+    "name": "Copper Wire",
+    "category": "Packaging",
+    "unit": "kg",
+    "description": "Synthetic material record for Copper Wire.",
+    "active": true
+  },
+  {
+    "id": "MAT_CAMERA_MODULE_12",
+    "type": "material",
+    "name": "Camera Module",
+    "category": "Electronics",
+    "unit": "unit",
+    "description": "Synthetic material record for Camera Module.",
+    "active": true
+  },
+  {
+    "id": "MAT_MEMORY_CHIP_13",
+    "type": "material",
+    "name": "Memory Chip",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for Memory Chip.",
+    "active": true
+  },
+  {
+    "id": "MAT_POWER_IC_14",
+    "type": "material",
+    "name": "Power IC",
+    "category": "Electronics",
+    "unit": "unit",
+    "description": "Synthetic material record for Power IC.",
+    "active": true
+  },
+  {
+    "id": "MAT_GLASS_COVER_15",
+    "type": "material",
+    "name": "Glass Cover",
+    "category": "Packaging",
+    "unit": "unit",
+    "description": "Synthetic material record for Glass Cover.",
+    "active": true
+  },
+  {
+    "id": "MAT_RUBBER_GASKET_16",
+    "type": "material",
+    "name": "Rubber Gasket",
+    "category": "Mechanical",
+    "unit": "kg",
+    "description": "Synthetic material record for Rubber Gasket.",
+    "active": true
+  },
+  {
+    "id": "MAT_COOLING_FAN_17",
+    "type": "material",
+    "name": "Cooling Fan",
+    "category": "Packaging",
+    "unit": "unit",
+    "description": "Synthetic material record for Cooling Fan.",
+    "active": true
+  },
+  {
+    "id": "MAT_SENSOR_ARRAY_18",
+    "type": "material",
+    "name": "Sensor Array",
+    "category": "Mechanical",
+    "unit": "unit",
+    "description": "Synthetic material record for Sensor Array.",
+    "active": true
+  },
+  {
+    "id": "MAT_WIFI_MODULE_19",
+    "type": "material",
+    "name": "WiFi Module",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for WiFi Module.",
+    "active": true
+  },
+  {
+    "id": "MAT_GPS_MODULE_20",
+    "type": "material",
+    "name": "GPS Module",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for GPS Module.",
+    "active": true
+  },
+  {
+    "id": "MAT_CHARGER_CABLE_21",
+    "type": "material",
+    "name": "Charger Cable",
+    "category": "Mechanical",
+    "unit": "unit",
+    "description": "Synthetic material record for Charger Cable.",
+    "active": true
+  },
+  {
+    "id": "MAT_SCREW_SET_22",
+    "type": "material",
+    "name": "Screw Set",
+    "category": "Metals",
+    "unit": "kg",
+    "description": "Synthetic material record for Screw Set.",
+    "active": true
+  },
+  {
+    "id": "MAT_PAINT_23",
+    "type": "material",
+    "name": "Paint",
+    "category": "Plastics",
+    "unit": "kg",
+    "description": "Synthetic material record for Paint.",
+    "active": true
+  },
+  {
+    "id": "MAT_INSULATION_FOAM_24",
+    "type": "material",
+    "name": "Insulation Foam",
+    "category": "Plastics",
+    "unit": "kg",
+    "description": "Synthetic material record for Insulation Foam.",
+    "active": true
+  },
+  {
+    "id": "MAT_LED_BACKLIGHT_25",
+    "type": "material",
+    "name": "LED Backlight",
+    "category": "Chemicals",
+    "unit": "unit",
+    "description": "Synthetic material record for LED Backlight.",
+    "active": true
+  },
+  {
+    "id": "MAT_TRANSFORMER_26",
+    "type": "material",
+    "name": "Transformer",
+    "category": "Mechanical",
+    "unit": "unit",
+    "description": "Synthetic material record for Transformer.",
+    "active": true
+  },
+  {
+    "id": "MAT_INVERTER_PCB_27",
+    "type": "material",
+    "name": "Inverter PCB",
+    "category": "Plastics",
+    "unit": "board",
+    "description": "Synthetic material record for Inverter PCB.",
+    "active": true
+  },
+  {
+    "id": "MAT_SOLAR_CELLS_28",
+    "type": "material",
+    "name": "Solar Cells",
+    "category": "Metals",
+    "unit": "cell",
+    "description": "Synthetic material record for Solar Cells.",
+    "active": true
+  },
+  {
+    "id": "MAT_GYROSCOPE_29",
+    "type": "material",
+    "name": "Gyroscope",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for Gyroscope.",
+    "active": true
+  },
+  {
+    "id": "MAT_BATTERY_BMS_30",
+    "type": "material",
+    "name": "Battery BMS",
+    "category": "Plastics",
+    "unit": "unit",
+    "description": "Synthetic material record for Battery BMS.",
+    "active": true
+  },
+  {
+    "id": "MAT_ANTIBIOTIC_REAGENT_31",
+    "type": "material",
+    "name": "Antibiotic Reagent",
+    "category": "Chemicals",
+    "unit": "kg",
+    "description": "Synthetic material record for Antibiotic Reagent.",
+    "active": true
+  },
+  {
+    "id": "MAT_STERILE_TUBING_32",
+    "type": "material",
+    "name": "Sterile Tubing",
+    "category": "Mechanical",
+    "unit": "m",
+    "description": "Synthetic material record for Sterile Tubing.",
+    "active": true
+  },
+  {
+    "id": "MAT_MICROCONTROLLER_33",
+    "type": "material",
+    "name": "Microcontroller",
+    "category": "Mechanical",
+    "unit": "unit",
+    "description": "Synthetic material record for Microcontroller.",
+    "active": true
+  },
+  {
+    "id": "MAT_BLUETOOTH_MODULE_34",
+    "type": "material",
+    "name": "Bluetooth Module",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for Bluetooth Module.",
+    "active": true
+  },
+  {
+    "id": "MAT_HEAT_SINK_35",
+    "type": "material",
+    "name": "Heat Sink",
+    "category": "Mechanical",
+    "unit": "kg",
+    "description": "Synthetic material record for Heat Sink.",
+    "active": true
+  },
+  {
+    "id": "MAT_ADHESIVE_36",
+    "type": "material",
+    "name": "Adhesive",
+    "category": "Mechanical",
+    "unit": "kg",
+    "description": "Synthetic material record for Adhesive.",
+    "active": true
+  },
+  {
+    "id": "MAT_BEARING_37",
+    "type": "material",
+    "name": "Bearing",
+    "category": "Mechanical",
+    "unit": "unit",
+    "description": "Synthetic material record for Bearing.",
+    "active": true
+  },
+  {
+    "id": "MAT_ACTUATOR_38",
+    "type": "material",
+    "name": "Actuator",
+    "category": "Metals",
+    "unit": "unit",
+    "description": "Synthetic material record for Actuator.",
+    "active": true
+  },
+  {
+    "id": "MAT_SEALING_TAPE_39",
+    "type": "material",
+    "name": "Sealing Tape",
+    "category": "Electronics",
+    "unit": "kg",
+    "description": "Synthetic material record for Sealing Tape.",
+    "active": true
+  },
+  {
+    "id": "MAT_STEEL_FASTENER_40",
+    "type": "material",
+    "name": "Steel Fastener",
+    "category": "Electronics",
+    "unit": "kg",
+    "description": "Synthetic material record for Steel Fastener.",
+    "active": true
+  }
+]
