@@ -182,7 +182,7 @@ export async function POST(request: NextRequest) {
   const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
   const messages: OpenAI.Chat.ChatCompletionMessageParam[] = [
     { role: "system", content: systemPrompt + "\n\nContext:\n" + context },
-    ...body.messages.map((m) => ({
+    ...body.messages.map((m: { role: string; content: string }) => ({
       role: m.role as "user" | "assistant" | "system",
       content: m.content,
     })),
