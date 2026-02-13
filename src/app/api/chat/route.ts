@@ -138,6 +138,29 @@ async function buildContext(opts: {
     });
   }
 
+  // Analytics tab1: KPIs and top shipments by risk (for "top N by risk and why" questions)
+  const tab1 = await provider.getAnalyticsTab1() as {
+    kpis?: Record<string, unknown>;
+    shipment_eta_table?: Array<{
+      shipment_id: string;
+      shipment_no: string;
+      origin: string;
+      destination: string;
+      status: string;
+      predicted_arrival?: string;
+      planned_arrival?: string;
+      predicted_delay_days?: number;
+      risk_score?: number;
+      top_drivers?: string[];
+    }>;
+  };
+  if (tab1?.shipment_eta_table?.length) {
+    parts.push("Shipments by risk (from analytics, use for 'top N by risk'):");
+    tab1.shipment_eta_table.slice(0, 15).forEach((row, i) => {
+      parts.push(`${i + 1}. ${row.shipment_id} ${row.shipment_no} risk_score=${row.risk_score ?? "—"} predicted_delay_days=${row.predicted_delay_days ?? "—"} status=${row.status} origin=${row.origin} dest=${row.destination} top_drivers=[${(row.top_drivers ?? []).join(", ")}]`);
+    });
+  }
+
   const news = await provider.getNews({ tab: opts.tabId });
   const articles = (news as { articles?: Array<{ id: string; title: string; summary?: string }> }).articles?.slice(0, 5) ?? [];
   if (articles.length) {

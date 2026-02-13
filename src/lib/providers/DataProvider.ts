@@ -156,8 +156,8 @@ export interface AppConfig {
 }
 
 export interface DataProvider {
-  getEntities(types: EntityType[]): Promise<BaseEntity[]>;
-  getVehicles(types: VehicleType[]): Promise<Vehicle[]>;
+  getEntities(types: string[]): Promise<BaseEntity[]>;
+  getVehicles(types: string[]): Promise<Vehicle[]>;
   getSegments(): Promise<Segment[]>;
   getShipments(params?: { status?: string; limit?: number; search?: string }): Promise<Shipment[]>;
   getShipmentById(id: string): Promise<Shipment | null>;
