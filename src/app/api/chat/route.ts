@@ -20,10 +20,20 @@ const zIn = {
   role: "dispatcher" as string,
 };
 
-function parseBody(body: string) {
+type ChatMessage = { role: string; content: string };
+
+function parseBody(body: string): {
+  messages: ChatMessage[];
+  tabId: number;
+  selectedEntityId: string | undefined;
+  selectedItemId: string | undefined;
+  selectedScenarioId: string | undefined;
+  filters: Record<string, unknown>;
+  role: string;
+} {
   const raw = JSON.parse(body);
   return {
-    messages: Array.isArray(raw.messages) ? raw.messages : [],
+    messages: Array.isArray(raw.messages) ? raw.messages as ChatMessage[] : [],
     tabId: typeof raw.tabId === "number" ? raw.tabId : 1,
     selectedEntityId: typeof raw.selectedEntityId === "string" ? raw.selectedEntityId : undefined,
     selectedItemId: typeof raw.selectedItemId === "string" ? raw.selectedItemId : undefined,
@@ -182,7 +192,7 @@ export async function POST(request: NextRequest) {
   const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
   const messages: OpenAI.Chat.ChatCompletionMessageParam[] = [
     { role: "system", content: systemPrompt + "\n\nContext:\n" + context },
-    ...body.messages.map((m: { role: string; content: string }) => ({
+    ...body.messages.map((m: ChatMessage) => ({
       role: m.role as "user" | "assistant" | "system",
       content: m.content,
     })),
