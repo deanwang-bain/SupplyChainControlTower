@@ -83,8 +83,9 @@ export function AnalyticsTab1() {
       .catch(() => setShipmentDetail(null));
   }, [selectedShipmentId]);
 
-  const [facilityShipments, setFacilityShipments] = useState<unknown[]>([]);
-  const [vehicleShipments, setVehicleShipments] = useState<unknown[]>([]);
+  type ShipmentSummary = { id: string; shipment_no?: string };
+  const [facilityShipments, setFacilityShipments] = useState<ShipmentSummary[]>([]);
+  const [vehicleShipments, setVehicleShipments] = useState<ShipmentSummary[]>([]);
 
   useEffect(() => {
     if (!selectedEntityId && !selectedVehicleId) {
@@ -162,7 +163,7 @@ export function AnalyticsTab1() {
             {selectedEntityId ? `Shipments at facility ${selectedEntityId}` : `Shipments (vehicle ${selectedVehicleId})`}
           </div>
           <ul className="mt-1 max-h-24 overflow-y-auto text-xs">
-            {(facilityShipments.length ? facilityShipments : vehicleShipments.slice(0, 10)).map((s: { id: string; shipment_no?: string }) => (
+            {(facilityShipments.length ? facilityShipments : vehicleShipments.slice(0, 10)).map((s) => (
               <li key={s.id}>
                 <button
                   type="button"
